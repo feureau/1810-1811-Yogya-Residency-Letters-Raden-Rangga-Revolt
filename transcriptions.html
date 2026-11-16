@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Transcription Viewer — 1810–1811 Yogya Residency Letters</title>
+<style>
+  :root {
+    --bg: #1a1a1a;
+    --panel: #222222;
+    --panel-border: #333333;
+    --fg: #e0e0e0;
+    --muted: #9a9a9a;
+    --line: #333333;
+    --accent: #4a9eff;
+    --accent-hover: #70b4ff;
+    --code-bg: #2a2a2a;
+    --code-fg: #ffb454;
+    --success: #2ea043;
+    --warning: #d29922;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 16px 20px 40px;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1700px; margin: 0 auto; }
+  
+  /* Topbar */
+  .topbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+  }
+  .topbar h1 {
+    font-size: 1.15rem;
+    margin: 0;
+    color: #fff;
+    flex: 1 1 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #2d2d2d;
+    color: var(--fg);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 0.88rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
+    user-select: none;
+  }
+  .btn:hover { background: #3a3a3a; border-color: #555; color: #fff; }
+  .btn[aria-disabled="true"] { opacity: 0.35; pointer-events: none; }
+  
+  .select-jump {
+    background: #2d2d2d;
+    color: var(--fg);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 0.88rem;
+    max-width: 320px;
+    cursor: pointer;
+  }
+  .select-jump:focus { outline: none; border-color: var(--accent); }
+
+  /* Two-Pane Viewer Layout */
+  .viewer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 24px;
+    align-items: start;
+  }
+  @media (max-width: 960px) {
+    .viewer { grid-template-columns: 1fr; }
+  }
+
+  /* Scan Pane */
+  .scan-pane {
+    position: sticky;
+    top: 16px;
+    height: calc(100vh - 85px);
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 960px) {
+    .scan-pane { position: relative; top: 0; height: 600px; }
+  }
+  .scan-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .scan-container.grabbing { cursor: grabbing; }
+  .scan-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transform-origin: center center;
+    transition: transform 0.05s ease-out;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .scan-tools {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.82rem;
+    color: var(--muted);
+    background: rgba(0, 0, 0, 0.65);
+    padding: 6px 10px;
+    border-radius: 6px;
+    backdrop-filter: blur(4px);
+    z-index: 10;
+  }
+  .scan-tools-right { display: flex; align-items: center; gap: 8px; }
+  .tool-btn {
+    background: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.78rem;
+    cursor: pointer;
+  }
+  .tool-btn:hover { background: #444; }
+
+  /* Transcription Pane */
+  .transcript-pane {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 24px 28px;
+    min-height: calc(100vh - 85px);
+  }
+  #transcript-output h1 { font-size: 1.6rem; color: #fff; margin-top: 0; border-bottom: 1px solid #333; padding-bottom: 8px; }
+  #transcript-output h2 { font-size: 1.3rem; color: #fff; margin-top: 24px; border-bottom: 1px solid #333; padding-bottom: 6px; }
+  #transcript-output h3 { font-size: 1.1rem; color: #e6e6e6; margin-top: 20px; }
+  #transcript-output p { margin: 10px 0; }
+  #transcript-output ul, #transcript-output ol { padding-left: 24px; margin: 10px 0; }
+  #transcript-output li { margin-bottom: 4px; }
+  #transcript-output hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }
+  
+  /* Table styling */
+  #transcript-output table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.92rem;
+    background: #1c1c1c;
+  }
+  #transcript-output th, #transcript-output td {
+    border: 1px solid #3a3a3a;
+    padding: 10px 14px;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  #transcript-output th {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: left;
+  }
+  #transcript-output tr:nth-child(even) {
+    background-color: #212121;
+  }
+  #transcript-output tr:hover {
+    background-color: #262626;
+  }
+  #transcript-output code {
+    background: var(--code-bg);
+    color: var(--code-fg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.88em;
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  }
+  #transcript-output blockquote {
+    border-left: 4px solid var(--accent);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 6px 16px;
+    color: #b8b8b8;
+    background: rgba(74, 158, 255, 0.05);
+    border-radius: 0 4px 4px 0;
+  }
+  .render-error {
+    background: #2a1414;
+    border: 1px solid #ff6b6b55;
+    border-radius: 6px;
+    padding: 1.25rem;
+    color: #ffb4b4;
+  }
+  .pending-card {
+    background: #26211a;
+    border: 1px solid #d2992255;
+    border-radius: 8px;
+    padding: 30px 24px;
+    text-align: center;
+    color: #e0d0b8;
+  }
+  .pending-card h3 { color: #f2a738; margin-top: 0; font-size: 1.3rem; }
+  .pending-card p { max-width: 600px; margin: 10px auto; color: #cfc2b0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a class="btn" href="index.html">← Portal</a>
+    <a class="btn" href="full.html">Full Documentation</a>
+    <a class="btn" href="dictionary.html">Keyword Dictionary</a>
+    
+    <select id="jump-select" class="select-jump" title="Select manuscript scan"></select>
+
+    <h1 id="doc-title">Loading…</h1>
+
+    <a class="btn" data-nav="prev" href="#">‹ Prev</a>
+    <a class="btn" data-nav="next" href="#">Next ›</a>
+  </div>
+
+  <div class="viewer">
+    <!-- Left Scan Pane with Interactive Zoom & Pan -->
+    <div class="scan-pane">
+      <div class="scan-tools">
+        <span id="scan-note">Loading scan…</span>
+        <div class="scan-tools-right">
+          <span id="zoom-level">100%</span>
+          <button class="tool-btn" id="btn-zoom-reset" title="Reset zoom to 100%">Reset</button>
+          <button class="tool-btn" id="btn-zoom-in" title="Zoom in">+</button>
+          <button class="tool-btn" id="btn-zoom-out" title="Zoom out">−</button>
+        </div>
+      </div>
+      <div class="scan-container" id="scan-container">
+        <img id="scan" alt="Scanned manuscript page">
+      </div>
+    </div>
+
+    <!-- Right Transcription Pane -->
+    <div class="transcript-pane">
+      <div id="transcript-output">Loading…</div>
+
+      <div style="margin-top:30px; padding-top:16px; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <a class="btn" data-nav="prev" href="#">‹ Previous manuscript</a>
+        <a class="btn" data-nav="next" href="#">Next manuscript ›</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="marked.min.js" defer></script>
+<script>
+(function () {
+  "use strict";
+
+  const GITHUB_REPO   = "feureau/1810-1811-Yogya-Residency-Letters-Raden-Rangga-Revolt";
+  const OUTPUT_ID     = "transcript-output";
+  const TITLE_ID      = "doc-title";
+  const SCAN_ID       = "scan";
+  const SCAN_NOTE_ID  = "scan-note";
+  const ZOOM_LEVEL_ID = "zoom-level";
+
+  let gList = [];
+  let gCurrentEntry = null;
+
+  async function loadData() {
+    const res = await fetch("data.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("Could not load data.json");
+    return await res.json();
+  }
+
+  function getEntry(list, id) {
+    if (!id) return list[0];
+    return list.find(e => e.id === id) || list[0];
+  }
+
+  async function getMarkdown(entry) {
+    const src = entry.text;
+    if (!src) return null;
+    const res = await fetch(src, { cache: "no-store" });
+    if (!res.ok) {
+      if (res.status === 404) return null;
+      throw new Error(`Failed to load ${src} (status ${res.status})`);
+    }
+    const text = await res.text();
+    return text.trim() ? text : null;
+  }
+
+  function configureMarked() {
+    if (typeof marked === "undefined") return;
+    marked.setOptions({ gfm: true, breaks: false, mangle: false });
+  }
+
+  function addHeaderIds(root) {
+    root.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(h => {
+      h.id = h.textContent.toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-").replace(/-+/g, "-");
+    });
+  }
+
+  function populateJumpSelect(list, currentEntry) {
+    const select = document.getElementById("jump-select");
+    if (!select) return;
+    select.innerHTML = "";
+    list.forEach(entry => {
+      const opt = document.createElement("option");
+      opt.value = entry.id;
+      const statusIcon = entry.status === "completed" ? "✓ " : "⏳ ";
+      const desc = entry.description ? ` — ${entry.description}` : "";
+      opt.textContent = `${statusIcon}${entry.id}${desc}`;
+      if (entry.id === currentEntry.id) opt.selected = true;
+      select.appendChild(opt);
+    });
+    select.onchange = (e) => {
+      location.href = "?id=" + encodeURIComponent(e.target.value);
+    };
+  }
+
+  function setupImage(entry) {
+    const img       = document.getElementById(SCAN_ID);
+    const container = document.getElementById("scan-container");
+    const note      = document.getElementById(SCAN_NOTE_ID);
+    const zoomText  = document.getElementById(ZOOM_LEVEL_ID);
+    if (!img || !container) return;
+
+    let scale = 1, translateX = 0, translateY = 0;
+    const updateTransform = () => {
+      img.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+      if (zoomText) zoomText.textContent = `${Math.round(scale * 100)}%`;
+    };
+
+    const resetZoom = () => {
+      scale = 1; translateX = 0; translateY = 0;
+      updateTransform();
+    };
+
+    document.getElementById("btn-zoom-reset")?.addEventListener("click", resetZoom);
+    document.getElementById("btn-zoom-in")?.addEventListener("click", () => {
+      scale = Math.min(5, scale * 1.25);
+      updateTransform();
+    });
+    document.getElementById("btn-zoom-out")?.addEventListener("click", () => {
+      scale = Math.max(0.2, scale * 0.8);
+      updateTransform();
+    });
+
+    container.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const delta = e.deltaY < 0 ? 1.15 : 0.85;
+      const rect = container.getBoundingClientRect();
+      const offsetX = e.clientX - rect.left - rect.width / 2;
+      const offsetY = e.clientY - rect.top - rect.height / 2;
+      translateX = (translateX - offsetX) * delta + offsetX;
+      translateY = (translateY - offsetY) * delta + offsetY;
+      scale = Math.max(0.2, Math.min(6, scale * delta));
+      updateTransform();
+    }, { passive: false });
+
+    let isPanning = false, startX = 0, startY = 0;
+    container.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return;
+      isPanning = true;
+      startX = e.clientX - translateX;
+      startY = e.clientY - translateY;
+      container.classList.add('grabbing');
+      e.preventDefault();
+    });
+    window.addEventListener('mousemove', (e) => {
+      if (!isPanning) return;
+      translateX = e.clientX - startX;
+      translateY = e.clientY - startY;
+      updateTransform();
+    });
+    window.addEventListener('mouseup', () => {
+      isPanning = false;
+      container.classList.remove('grabbing');
+    });
+
+    // Double click to toggle 100% / 200%
+    container.addEventListener('dblclick', () => {
+      if (scale > 1.2) resetZoom();
+      else { scale = 2; updateTransform(); }
+    });
+
+    // Set Image Source
+    resetZoom();
+    img.alt = `Archival scan: ${entry.id}`;
+    if (note) note.textContent = entry.image || `${entry.id}.jpg`;
+    img.src = entry.image;
+
+    img.onerror = () => {
+      if (note) note.textContent = `Scan not found: ${entry.image}`;
+      img.alt = `Scan unavailable: ${entry.id}`;
+      img.src = "data:image/svg+xml;utf8," + encodeURIComponent(
+        `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320"><rect fill="#222" width="100%" height="100%"/><text x="50%" y="50%" fill="#888" font-family="sans-serif" font-size="14" text-anchor="middle">Scan ${entry.id} not available</text></svg>`
+      );
+    };
+  }
+
+  function setupNav(list, entry) {
+    const idx = list.findIndex(e => e.id === entry.id);
+    const prev = idx > 0 ? list[idx - 1] : null;
+    const next = idx >= 0 && idx < list.length - 1 ? list[idx + 1] : null;
+
+    document.querySelectorAll('[data-nav="prev"]').forEach(a => {
+      if (prev) { a.href = "?id=" + encodeURIComponent(prev.id); a.removeAttribute("aria-disabled"); }
+      else      { a.href = "#"; a.setAttribute("aria-disabled", "true"); }
+    });
+    document.querySelectorAll('[data-nav="next"]').forEach(a => {
+      if (next) { a.href = "?id=" + encodeURIComponent(next.id); a.removeAttribute("aria-disabled"); }
+      else      { a.href = "#"; a.setAttribute("aria-disabled", "true"); }
+    });
+
+    document.addEventListener("keydown", e => {
+      if (e.target.matches("input,textarea,select")) return;
+      if (e.key === "ArrowLeft"  && prev) location.href = "?id=" + encodeURIComponent(prev.id);
+      if (e.key === "ArrowRight" && next) location.href = "?id=" + encodeURIComponent(next.id);
+    });
+  }
+
+  function downloadBlob(filename, content, mimeType) {
+    const blob = new Blob([content], { type: mimeType });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  async function render() {
+    const out   = document.getElementById(OUTPUT_ID);
+    const title = document.getElementById(TITLE_ID);
+    if (!out) return;
+
+    try {
+      gList = await loadData();
+    } catch (err) {
+      if (out) out.innerHTML = `<div class="render-error"><h2>Error Loading Data</h2><pre>${err.message}</pre></div>`;
+      return;
+    }
+
+    const params = new URLSearchParams(location.search);
+    gCurrentEntry = getEntry(gList, params.get("id"));
+    if (!gCurrentEntry) return;
+
+    document.title = `${gCurrentEntry.id} — Yogya Residency Letters`;
+    if (title) title.textContent = `${gCurrentEntry.id}${gCurrentEntry.description ? ' (' + gCurrentEntry.description + ')' : ''}`;
+
+    populateJumpSelect(gList, gCurrentEntry);
+    setupNav(gList, gCurrentEntry);
+    setupImage(gCurrentEntry);
+
+    try {
+      const md = await getMarkdown(gCurrentEntry);
+
+      if (!md) {
+        // Pending / uncompleted transcription notice
+        out.innerHTML = `
+          <div class="pending-card">
+            <h3>⏳ Transcription in Progress</h3>
+            <p>The transcription and scholarly validation for manuscript scan <strong>${gCurrentEntry.id}</strong> are currently in progress.</p>
+            <p>You can examine the high-resolution archival scan on the left pane with zoom and pan.</p>
+            <div style="margin-top:20px;">
+              <a href="https://github.com/${GITHUB_REPO}/issues/new?title=${encodeURIComponent('Transcription Request: ' + gCurrentEntry.id)}&body=${encodeURIComponent('Archival item ' + gCurrentEntry.id + ' is pending transcription.')}" target="_blank" class="btn" style="background:#2ea043; border-color:#2ea043; color:white;">
+                Request Priority on GitHub
+              </a>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      if (typeof marked === "undefined") throw new Error("marked.min.js did not load.");
+
+      const githubBtnHtml = `<a href="#" id="github-report-btn" class="btn" style="background:#2ea043; border-color:#2ea043; color:white; display:inline-flex; align-items:center; gap:6px;"><svg height="16" viewBox="0 0 16 16" width="16" style="fill:white;"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.46-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path></svg> Report Issue on GitHub</a>`;
+      const downloadSelectHtml = `<select class="download-select btn" style="padding:6px 10px; cursor:pointer;"><option value="" disabled selected>📥 Download...</option><option value="md">Markdown (.md)</option><option value="html">Webpage (.html)</option><option value="doc">Word (.doc)</option></select>`;
+      const buttonToolbar = `<div style="margin-bottom: 22px; display:flex; gap:10px; align-items:center; flex-wrap:wrap;">${githubBtnHtml}${downloadSelectHtml}</div>`;
+
+      out.innerHTML = buttonToolbar + marked.parse(md);
+      addHeaderIds(out);
+
+      // Context-aware GitHub Issue reporting
+      const githubBtn = document.getElementById("github-report-btn");
+      if (githubBtn) {
+        githubBtn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const sel = window.getSelection();
+          let selectionText = "";
+          if (sel.rangeCount > 0 && out.contains(sel.anchorNode)) {
+            selectionText = sel.toString().trim();
+          }
+          let body = `**Transcription ID:** ${gCurrentEntry.id}\n\n`;
+          if (selectionText) {
+            body += `**Selected / Highlighted Text:**\n> ${selectionText.replace(/\n/g, '\n> ')}\n\n`;
+          }
+          body += `**Suggested Correction / Notes:**\n`;
+          window.open(`https://github.com/${GITHUB_REPO}/issues/new?title=${encodeURIComponent('Transcription Note: ' + gCurrentEntry.id)}&body=${encodeURIComponent(body)}`, '_blank');
+        });
+      }
+
+      // Format downloads
+      const downloadSelect = out.querySelector(".download-select");
+      if (downloadSelect) {
+        downloadSelect.addEventListener("change", (e) => {
+          const format = e.target.value;
+          e.target.value = "";
+          const htmlContent = marked.parse(md);
+
+          if (format === "md") {
+            downloadBlob(`${gCurrentEntry.id}.md`, md, "text/markdown");
+          } else if (format === "html") {
+            const page = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${gCurrentEntry.id}</title><style>body{font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif;max-width:900px;margin:0 auto;padding:24px;line-height:1.6;color:#222;}table{width:100%;border-collapse:collapse;margin:20px 0;}th,td{border:1px solid #ccc;padding:8px 12px;vertical-align:top;}th{background:#f0f0f0;}blockquote{border-left:4px solid #4a9eff;padding-left:14px;color:#555;margin-left:0;}</style></head><body>${htmlContent}</body></html>`;
+            downloadBlob(`${gCurrentEntry.id}.html`, page, "text/html");
+          } else if (format === "doc") {
+            const doc = `<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>${gCurrentEntry.id}</title></head><body>${htmlContent}</body></html>`;
+            downloadBlob(`${gCurrentEntry.id}.doc`, doc, "application/msword");
+          }
+        });
+      }
+    } catch (err) {
+      console.error(err);
+      if (out) out.innerHTML = `<div class="render-error"><h2>Error Loading Transcription</h2><pre>${err.message}</pre></div>`;
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => { configureMarked(); render(); });
+  } else {
+    configureMarked(); render();
+  }
+})();
+</script>
+</body>
+</html>

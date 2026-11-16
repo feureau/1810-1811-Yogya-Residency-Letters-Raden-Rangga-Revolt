@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Full Transcriptions — 1810–1811 Yogya Residency Letters</title>
+    <style>
+        :root {
+            --bg: #1a1a1a;
+            --panel: #222222;
+            --panel-border: #333333;
+            --fg: #e0e0e0;
+            --muted: #9a9a9a;
+            --line: #333333;
+            --accent: #4a9eff;
+            --accent-hover: #70b4ff;
+            --code-bg: #2a2a2a;
+            --code-fg: #ffb454;
+            --success: #2ea043;
+        }
+        * { box-sizing: border-box; }
+        body {
+            background-color: var(--bg);
+            color: var(--fg);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px 20px 60px;
+            line-height: 1.65;
+        }
+        .topbar {
+            position: sticky;
+            top: 0;
+            background: rgba(26, 26, 26, 0.94);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            border-bottom: 1px solid #333;
+            padding: 12px 0;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            background: #2d2d2d;
+            color: var(--fg);
+            border: 1px solid var(--panel-border);
+            border-radius: 5px;
+            padding: 7px 14px;
+            font-size: 0.88rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+        .btn:hover { background: #3a3a3a; color: #ffffff; }
+        .select-jump {
+            background: #2d2d2d;
+            color: var(--fg);
+            border: 1px solid var(--panel-border);
+            border-radius: 5px;
+            padding: 7px 12px;
+            font-size: 0.88rem;
+            max-width: 280px;
+            cursor: pointer;
+        }
+        
+        h1 { color: #ffffff; margin-top: 10px; font-size: 2rem; }
+        .intro-text { color: var(--muted); margin-bottom: 25px; font-size: 0.98rem; }
+        
+        /* Loading indicator */
+        #loading-indicator {
+            background: var(--panel);
+            border: 1px solid var(--panel-border);
+            border-radius: 8px;
+            padding: 24px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .progress-bar-bg {
+            background: #151515;
+            height: 10px;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: 14px auto 0;
+            overflow: hidden;
+            border: 1px solid #333;
+        }
+        .progress-bar-val {
+            background: linear-gradient(90deg, #2ea043, #4a9eff);
+            height: 100%;
+            width: 0%;
+            transition: width 0.15s ease;
+        }
+
+        /* Transcription Section */
+        .transcription-section {
+            background: var(--panel);
+            border: 1px solid var(--panel-border);
+            border-radius: 8px;
+            padding: 28px;
+            margin-bottom: 35px;
+        }
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 14px;
+            margin-bottom: 20px;
+        }
+        .section-header h2 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 1.45rem;
+        }
+        .section-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.92rem;
+            background: #1c1c1c;
+        }
+        th, td {
+            border: 1px solid #3a3a3a;
+            padding: 10px 14px;
+            vertical-align: top;
+            line-height: 1.5;
+        }
+        th {
+            background-color: #2a2a2a;
+            color: #ffffff;
+            font-weight: 600;
+            text-align: left;
+        }
+        tr:nth-child(even) { background-color: #212121; }
+        tr:hover { background-color: #262626; }
+        
+        code {
+            background: var(--code-bg);
+            color: var(--code-fg);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.88em;
+            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+        }
+        blockquote {
+            border-left: 4px solid var(--accent);
+            margin-left: 0;
+            margin-right: 0;
+            padding: 6px 16px;
+            color: #b8b8b8;
+            background: rgba(74, 158, 255, 0.05);
+            border-radius: 0 4px 4px 0;
+        }
+        hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }
+        .render-error {
+            background: #2a1414;
+            border: 1px solid #ff6b6b55;
+            border-radius: 6px;
+            padding: 1.25rem;
+            color: #ffb4b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a class="btn" href="index.html">← Portal</a>
+        <a class="btn" href="transcriptions.html">Side-by-Side Viewer</a>
+        <a class="btn" href="dictionary.html">Keyword Dictionary</a>
+        <select id="toc-jump" class="select-jump" title="Jump to document in scroll">
+            <option value="" disabled selected>Jump to document...</option>
+        </select>
+    </div>
+
+    <h1>Full Transcriptions</h1>
+    <p class="intro-text">
+        This continuous reading view compiles all completed historical transcriptions from the Peter Carey collection into a unified chronological scroll with side-by-side scan shortcuts and multi-format downloads.
+    </p>
+
+    <!-- Progress Indicator -->
+    <div id="loading-indicator">
+        <div id="loading-text" style="color:#ffffff; font-weight:500;">Loading historical transcriptions…</div>
+        <div class="progress-bar-bg">
+            <div id="load-progress" class="progress-bar-val"></div>
+        </div>
+    </div>
+
+    <!-- Output Container -->
+    <div id="markdown-output"></div>
+
+    <script src="marked.min.js" defer></script>
+    <script>
+(async function () {
+  "use strict";
+
+  const GITHUB_REPO = "feureau/1810-1811-Yogya-Residency-Letters-Raden-Rangga-Revolt";
+  const OUTPUT_ID   = "markdown-output";
+
+  function configureMarked() {
+    if (typeof marked === "undefined") return;
+    marked.setOptions({ gfm: true, breaks: false, mangle: false });
+  }
+
+  function downloadBlob(filename, content, mimeType) {
+    const blob = new Blob([content], { type: mimeType });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  async function renderAll() {
+    const out         = document.getElementById(OUTPUT_ID);
+    const indicator   = document.getElementById("loading-indicator");
+    const loadText    = document.getElementById("loading-text");
+    const loadBar     = document.getElementById("load-progress");
+    const tocJump     = document.getElementById("toc-jump");
+    if (!out) return;
+
+    let list = [];
+    try {
+      const res = await fetch("data.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("Could not load data.json");
+      const allEntries = await res.json();
+      // Filter only completed transcriptions
+      list = allEntries.filter(e => e.status === "completed" && e.text);
+    } catch (err) {
+      if (indicator) indicator.style.display = "none";
+      if (out) out.innerHTML = `<div class="render-error"><h2>Error Loading Manifest</h2><pre>${err.message}</pre></div>`;
+      return;
+    }
+
+    const mdCache = {};
+    const total = list.length;
+    let loadedCount = 0;
+
+    // Delegate GitHub Issue button and Downloads
+    out.addEventListener("click", (e) => {
+      const btn = e.target.closest(".github-report-btn");
+      if (!btn) return;
+      e.preventDefault();
+
+      const entryId = btn.getAttribute("data-id");
+      const section = btn.closest(".transcription-section");
+      const sel = window.getSelection();
+      let selectionText = "";
+
+      if (sel.rangeCount > 0 && section && section.contains(sel.anchorNode)) {
+        selectionText = sel.toString().trim();
+      }
+
+      let body = `**Transcription ID:** ${entryId}\n\n`;
+      if (selectionText) {
+        body += `**Selected / Highlighted Text:**\n> ${selectionText.replace(/\n/g, '\n> ')}\n\n`;
+      }
+      body += `**Suggested Correction / Notes:**\n`;
+
+      window.open(`https://github.com/${GITHUB_REPO}/issues/new?title=${encodeURIComponent('Transcription Note: ' + entryId)}&body=${encodeURIComponent(body)}`, '_blank');
+    });
+
+    out.addEventListener("change", (e) => {
+      if (e.target.classList.contains("download-select")) {
+        const format  = e.target.value;
+        const entryId = e.target.getAttribute("data-id");
+        e.target.value = "";
+
+        const md = mdCache[entryId];
+        if (!md) return;
+
+        const htmlContent = marked.parse(md);
+
+        if (format === "md") {
+          downloadBlob(`${entryId}.md`, md, "text/markdown");
+        } else if (format === "html") {
+          const page = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${entryId}</title><style>body{font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif;max-width:900px;margin:0 auto;padding:24px;line-height:1.6;color:#222;}table{width:100%;border-collapse:collapse;margin:20px 0;}th,td{border:1px solid #ccc;padding:8px 12px;vertical-align:top;}th{background:#f0f0f0;}blockquote{border-left:4px solid #4a9eff;padding-left:14px;color:#555;margin-left:0;}</style></head><body>${htmlContent}</body></html>`;
+          downloadBlob(`${entryId}.html`, page, "text/html");
+        } else if (format === "doc") {
+          const doc = `<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>${entryId}</title></head><body>${htmlContent}</body></html>`;
+          downloadBlob(`${entryId}.doc`, doc, "application/msword");
+        }
+      }
+    });
+
+    // Populate Jump Select
+    list.forEach(entry => {
+      const opt = document.createElement("option");
+      opt.value = entry.id;
+      opt.textContent = `${entry.id}${entry.description ? ' — ' + entry.description : ''}`;
+      tocJump.appendChild(opt);
+    });
+    tocJump.addEventListener("change", (e) => {
+      const target = document.getElementById(e.target.value);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+
+    // Stream rendering of markdown files in batches
+    for (const entry of list) {
+      let mdText = "";
+      try {
+        const res = await fetch(entry.text, { cache: "no-store" });
+        if (res.ok) mdText = await res.text();
+      } catch (_) { /* ignore */ }
+
+      loadedCount++;
+      if (loadText) loadText.textContent = `Loading historical transcriptions: ${loadedCount} of ${total} (${Math.round((loadedCount / total) * 100)}%)…`;
+      if (loadBar)  loadBar.style.width = `${Math.round((loadedCount / total) * 100)}%`;
+
+      if (mdText) {
+        mdCache[entry.id] = mdText;
+
+        const section = document.createElement("article");
+        section.className = "transcription-section";
+        section.id = entry.id;
+
+        const scanLink = `<a href="transcriptions.html?id=${entry.id}" class="btn" style="color:var(--accent);" title="View high-res manuscript scan side-by-side">🔍 View Scan</a>`;
+        const githubBtnHtml = `<a href="#" class="btn github-report-btn" data-id="${entry.id}" style="background:#2ea043; border-color:#2ea043; color:white;"><svg height="14" viewBox="0 0 16 16" width="14" style="fill:white;"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.46-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path></svg> Issue</a>`;
+        const downloadSelectHtml = `<select class="download-select btn" data-id="${entry.id}" style="padding:5px 8px; cursor:pointer;"><option value="" disabled selected>📥 Download...</option><option value="md">Markdown (.md)</option><option value="html">Webpage (.html)</option><option value="doc">Word (.doc)</option></select>`;
+
+        const headerHtml = `
+          <div class="section-header">
+            <h2>${entry.id}</h2>
+            <div class="section-actions">
+              ${scanLink}
+              ${githubBtnHtml}
+              ${downloadSelectHtml}
+            </div>
+          </div>
+        `;
+
+        section.innerHTML = headerHtml + marked.parse(mdText);
+        out.appendChild(section);
+      }
+    }
+
+    if (indicator) indicator.style.display = "none";
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => { configureMarked(); renderAll(); });
+  } else {
+    configureMarked(); renderAll();
+  }
+})();
+    </script>
+</body>
+</html>

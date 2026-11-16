@@ -1,0 +1,3710 @@
+[
+  {
+    "id": "IMG_0461",
+    "image": "jpg/IMG_0461_rotated_90.jpg",
+    "text": "transcriptions/IMG_0461.md",
+    "status": "completed",
+    "category": "calibration",
+    "description": "ColorChecker target",
+    "index": 1
+  },
+  {
+    "id": "IMG_0462",
+    "image": "jpg/IMG_0462_rotated_90.jpg",
+    "text": "transcriptions/IMG_0462.md",
+    "status": "completed",
+    "category": "calibration",
+    "description": "Focus / exposure chart",
+    "index": 2
+  },
+  {
+    "id": "IMG_0463",
+    "image": "jpg/IMG_0463_rotated_90.jpg",
+    "text": "transcriptions/IMG_0463.md",
+    "status": "completed",
+    "category": "calibration",
+    "description": "Flat field vignette reference",
+    "index": 3
+  },
+  {
+    "id": "IMG_0464",
+    "image": "jpg/IMG_0464_rotated_90.jpg",
+    "text": "transcriptions/IMG_0464.md",
+    "status": "completed",
+    "category": "cover",
+    "description": "Grey archival folder cover labeled '1810'",
+    "index": 4
+  },
+  {
+    "id": "IMG_0465",
+    "image": "jpg/IMG_0465_rotated_90.jpg",
+    "text": "transcriptions/IMG_0465.md",
+    "status": "completed",
+    "category": "explanatory_note",
+    "description": "Typewritten note on Daendels agricultural month names",
+    "index": 5
+  },
+  {
+    "id": "IMG_0467",
+    "image": "jpg/IMG_0467_rotated_90.jpg",
+    "text": "transcriptions/IMG_0467.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 6
+  },
+  {
+    "id": "IMG_0468",
+    "image": "jpg/IMG_0468_rotated_90.jpg",
+    "text": "transcriptions/IMG_0468.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 7
+  },
+  {
+    "id": "IMG_0469",
+    "image": "jpg/IMG_0469_rotated_90.jpg",
+    "text": "transcriptions/IMG_0469.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 8
+  },
+  {
+    "id": "IMG_0470",
+    "image": "jpg/IMG_0470_rotated_90.jpg",
+    "text": "transcriptions/IMG_0470.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 9
+  },
+  {
+    "id": "IMG_0471",
+    "image": "jpg/IMG_0471_rotated_90.jpg",
+    "text": "transcriptions/IMG_0471.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 10
+  },
+  {
+    "id": "IMG_0472",
+    "image": "jpg/IMG_0472_rotated_90.jpg",
+    "text": "transcriptions/IMG_0472.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 11
+  },
+  {
+    "id": "IMG_0473",
+    "image": "jpg/IMG_0473_rotated_90.jpg",
+    "text": "transcriptions/IMG_0473.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 12
+  },
+  {
+    "id": "IMG_0474",
+    "image": "jpg/IMG_0474_rotated_90.jpg",
+    "text": "transcriptions/IMG_0474.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 13
+  },
+  {
+    "id": "IMG_0475",
+    "image": "jpg/IMG_0475_rotated_90.jpg",
+    "text": "transcriptions/IMG_0475.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 14
+  },
+  {
+    "id": "IMG_0476",
+    "image": "jpg/IMG_0476_rotated_90.jpg",
+    "text": "transcriptions/IMG_0476.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 15
+  },
+  {
+    "id": "IMG_0477",
+    "image": "jpg/IMG_0477_rotated_90.jpg",
+    "text": "transcriptions/IMG_0477.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 16
+  },
+  {
+    "id": "IMG_0478",
+    "image": "jpg/IMG_0478_rotated_90.jpg",
+    "text": "transcriptions/IMG_0478.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 17
+  },
+  {
+    "id": "IMG_0479",
+    "image": "jpg/IMG_0479_rotated_90.jpg",
+    "text": "transcriptions/IMG_0479.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 18
+  },
+  {
+    "id": "IMG_0480",
+    "image": "jpg/IMG_0480_rotated_90.jpg",
+    "text": "transcriptions/IMG_0480.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 19
+  },
+  {
+    "id": "IMG_0481",
+    "image": "jpg/IMG_0481_rotated_90.jpg",
+    "text": "transcriptions/IMG_0481.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 20
+  },
+  {
+    "id": "IMG_0482",
+    "image": "jpg/IMG_0482_rotated_90.jpg",
+    "text": "transcriptions/IMG_0482.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 21
+  },
+  {
+    "id": "IMG_0483",
+    "image": "jpg/IMG_0483_rotated_90.jpg",
+    "text": "transcriptions/IMG_0483.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 22
+  },
+  {
+    "id": "IMG_0484",
+    "image": "jpg/IMG_0484_rotated_90.jpg",
+    "text": "transcriptions/IMG_0484.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 23
+  },
+  {
+    "id": "IMG_0485",
+    "image": "jpg/IMG_0485_rotated_90.jpg",
+    "text": "transcriptions/IMG_0485.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 24
+  },
+  {
+    "id": "IMG_0486",
+    "image": "jpg/IMG_0486_rotated_90.jpg",
+    "text": "transcriptions/IMG_0486.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 25
+  },
+  {
+    "id": "IMG_0487",
+    "image": "jpg/IMG_0487_rotated_90.jpg",
+    "text": "transcriptions/IMG_0487.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 26
+  },
+  {
+    "id": "IMG_0488",
+    "image": "jpg/IMG_0488_rotated_90.jpg",
+    "text": "transcriptions/IMG_0488.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 27
+  },
+  {
+    "id": "IMG_0489",
+    "image": "jpg/IMG_0489_rotated_90.jpg",
+    "text": "transcriptions/IMG_0489.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 28
+  },
+  {
+    "id": "IMG_0490",
+    "image": "jpg/IMG_0490_rotated_90.jpg",
+    "text": "transcriptions/IMG_0490.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 29
+  },
+  {
+    "id": "IMG_0491",
+    "image": "jpg/IMG_0491_rotated_90.jpg",
+    "text": "transcriptions/IMG_0491.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 30
+  },
+  {
+    "id": "IMG_0492",
+    "image": "jpg/IMG_0492_rotated_90.jpg",
+    "text": "transcriptions/IMG_0492.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 31
+  },
+  {
+    "id": "IMG_0493",
+    "image": "jpg/IMG_0493_rotated_90.jpg",
+    "text": "transcriptions/IMG_0493.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 32
+  },
+  {
+    "id": "IMG_0494",
+    "image": "jpg/IMG_0494_rotated_90.jpg",
+    "text": "transcriptions/IMG_0494.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 33
+  },
+  {
+    "id": "IMG_0495",
+    "image": "jpg/IMG_0495_rotated_90.jpg",
+    "text": "transcriptions/IMG_0495.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 34
+  },
+  {
+    "id": "IMG_0496",
+    "image": "jpg/IMG_0496_rotated_90.jpg",
+    "text": "transcriptions/IMG_0496.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 35
+  },
+  {
+    "id": "IMG_0497",
+    "image": "jpg/IMG_0497_rotated_90.jpg",
+    "text": "transcriptions/IMG_0497.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 36
+  },
+  {
+    "id": "IMG_0498",
+    "image": "jpg/IMG_0498_rotated_90.jpg",
+    "text": "transcriptions/IMG_0498.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 37
+  },
+  {
+    "id": "IMG_0499",
+    "image": "jpg/IMG_0499_rotated_90.jpg",
+    "text": "transcriptions/IMG_0499.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 38
+  },
+  {
+    "id": "IMG_0500",
+    "image": "jpg/IMG_0500_rotated_90.jpg",
+    "text": "transcriptions/IMG_0500.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 39
+  },
+  {
+    "id": "IMG_0501",
+    "image": "jpg/IMG_0501_rotated_90.jpg",
+    "text": "transcriptions/IMG_0501.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 40
+  },
+  {
+    "id": "IMG_0502",
+    "image": "jpg/IMG_0502_rotated_90.jpg",
+    "text": "transcriptions/IMG_0502.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 41
+  },
+  {
+    "id": "IMG_0503",
+    "image": "jpg/IMG_0503_rotated_90.jpg",
+    "text": "transcriptions/IMG_0503.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 42
+  },
+  {
+    "id": "IMG_0504",
+    "image": "jpg/IMG_0504_rotated_90.jpg",
+    "text": "transcriptions/IMG_0504.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 43
+  },
+  {
+    "id": "IMG_0505",
+    "image": "jpg/IMG_0505_rotated_90.jpg",
+    "text": "transcriptions/IMG_0505.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 44
+  },
+  {
+    "id": "IMG_0506",
+    "image": "jpg/IMG_0506_rotated_90.jpg",
+    "text": "transcriptions/IMG_0506.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 45
+  },
+  {
+    "id": "IMG_0507",
+    "image": "jpg/IMG_0507_rotated_90.jpg",
+    "text": "transcriptions/IMG_0507.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 46
+  },
+  {
+    "id": "IMG_0508",
+    "image": "jpg/IMG_0508_rotated_90.jpg",
+    "text": "transcriptions/IMG_0508.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 47
+  },
+  {
+    "id": "IMG_0509",
+    "image": "jpg/IMG_0509_rotated_90.jpg",
+    "text": "transcriptions/IMG_0509.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 48
+  },
+  {
+    "id": "IMG_0510",
+    "image": "jpg/IMG_0510_rotated_90.jpg",
+    "text": "transcriptions/IMG_0510.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 49
+  },
+  {
+    "id": "IMG_0511",
+    "image": "jpg/IMG_0511_rotated_90.jpg",
+    "text": "transcriptions/IMG_0511.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 50
+  },
+  {
+    "id": "IMG_0512",
+    "image": "jpg/IMG_0512_rotated_90.jpg",
+    "text": "transcriptions/IMG_0512.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 51
+  },
+  {
+    "id": "IMG_0513",
+    "image": "jpg/IMG_0513_rotated_90.jpg",
+    "text": "transcriptions/IMG_0513.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 52
+  },
+  {
+    "id": "IMG_0514",
+    "image": "jpg/IMG_0514_rotated_90.jpg",
+    "text": "transcriptions/IMG_0514.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 53
+  },
+  {
+    "id": "IMG_0515",
+    "image": "jpg/IMG_0515_rotated_90.jpg",
+    "text": "transcriptions/IMG_0515.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 54
+  },
+  {
+    "id": "IMG_0516",
+    "image": "jpg/IMG_0516_rotated_90.jpg",
+    "text": "transcriptions/IMG_0516.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 55
+  },
+  {
+    "id": "IMG_0517",
+    "image": "jpg/IMG_0517_rotated_90.jpg",
+    "text": "transcriptions/IMG_0517.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 56
+  },
+  {
+    "id": "IMG_0518",
+    "image": "jpg/IMG_0518_rotated_90.jpg",
+    "text": "transcriptions/IMG_0518.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 57
+  },
+  {
+    "id": "IMG_0519",
+    "image": "jpg/IMG_0519_rotated_90.jpg",
+    "text": "transcriptions/IMG_0519.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 58
+  },
+  {
+    "id": "IMG_0520",
+    "image": "jpg/IMG_0520_rotated_90.jpg",
+    "text": "transcriptions/IMG_0520.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 59
+  },
+  {
+    "id": "IMG_0521",
+    "image": "jpg/IMG_0521_rotated_90.jpg",
+    "text": "transcriptions/IMG_0521.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 60
+  },
+  {
+    "id": "IMG_0522",
+    "image": "jpg/IMG_0522_rotated_90.jpg",
+    "text": "transcriptions/IMG_0522.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 61
+  },
+  {
+    "id": "IMG_0523",
+    "image": "jpg/IMG_0523_rotated_90.jpg",
+    "text": "transcriptions/IMG_0523.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 62
+  },
+  {
+    "id": "IMG_0524",
+    "image": "jpg/IMG_0524_rotated_90.jpg",
+    "text": "transcriptions/IMG_0524.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 63
+  },
+  {
+    "id": "IMG_0525",
+    "image": "jpg/IMG_0525_rotated_90.jpg",
+    "text": "transcriptions/IMG_0525.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 64
+  },
+  {
+    "id": "IMG_0526",
+    "image": "jpg/IMG_0526_rotated_90.jpg",
+    "text": "transcriptions/IMG_0526.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 65
+  },
+  {
+    "id": "IMG_0527",
+    "image": "jpg/IMG_0527_rotated_90.jpg",
+    "text": "transcriptions/IMG_0527.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 66
+  },
+  {
+    "id": "IMG_0528",
+    "image": "jpg/IMG_0528_rotated_90.jpg",
+    "text": "transcriptions/IMG_0528.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 67
+  },
+  {
+    "id": "IMG_0529",
+    "image": "jpg/IMG_0529_rotated_90.jpg",
+    "text": "transcriptions/IMG_0529.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 68
+  },
+  {
+    "id": "IMG_0530",
+    "image": "jpg/IMG_0530_rotated_90.jpg",
+    "text": "transcriptions/IMG_0530.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 69
+  },
+  {
+    "id": "IMG_0531",
+    "image": "jpg/IMG_0531_rotated_90.jpg",
+    "text": "transcriptions/IMG_0531.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 70
+  },
+  {
+    "id": "IMG_0532",
+    "image": "jpg/IMG_0532_rotated_90.jpg",
+    "text": "transcriptions/IMG_0532.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 71
+  },
+  {
+    "id": "IMG_0533",
+    "image": "jpg/IMG_0533_rotated_90.jpg",
+    "text": "transcriptions/IMG_0533.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 72
+  },
+  {
+    "id": "IMG_0534",
+    "image": "jpg/IMG_0534_rotated_90.jpg",
+    "text": "transcriptions/IMG_0534.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 73
+  },
+  {
+    "id": "IMG_0535",
+    "image": "jpg/IMG_0535_rotated_90.jpg",
+    "text": "transcriptions/IMG_0535.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 74
+  },
+  {
+    "id": "IMG_0536",
+    "image": "jpg/IMG_0536_rotated_90.jpg",
+    "text": "transcriptions/IMG_0536.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 75
+  },
+  {
+    "id": "IMG_0537",
+    "image": "jpg/IMG_0537_rotated_90.jpg",
+    "text": "transcriptions/IMG_0537.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 76
+  },
+  {
+    "id": "IMG_0538",
+    "image": "jpg/IMG_0538_rotated_90.jpg",
+    "text": "transcriptions/IMG_0538.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 77
+  },
+  {
+    "id": "IMG_0539",
+    "image": "jpg/IMG_0539_rotated_90.jpg",
+    "text": "transcriptions/IMG_0539.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 78
+  },
+  {
+    "id": "IMG_0540",
+    "image": "jpg/IMG_0540_rotated_90.jpg",
+    "text": "transcriptions/IMG_0540.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 79
+  },
+  {
+    "id": "IMG_0541",
+    "image": "jpg/IMG_0541_rotated_90.jpg",
+    "text": "transcriptions/IMG_0541.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 80
+  },
+  {
+    "id": "IMG_0542",
+    "image": "jpg/IMG_0542_rotated_90.jpg",
+    "text": "transcriptions/IMG_0542.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 81
+  },
+  {
+    "id": "IMG_0543",
+    "image": "jpg/IMG_0543_rotated_90.jpg",
+    "text": "transcriptions/IMG_0543.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 82
+  },
+  {
+    "id": "IMG_0544",
+    "image": "jpg/IMG_0544_rotated_90.jpg",
+    "text": "transcriptions/IMG_0544.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 83
+  },
+  {
+    "id": "IMG_0545",
+    "image": "jpg/IMG_0545_rotated_90.jpg",
+    "text": "transcriptions/IMG_0545.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 84
+  },
+  {
+    "id": "IMG_0546",
+    "image": "jpg/IMG_0546_rotated_90.jpg",
+    "text": "transcriptions/IMG_0546.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 85
+  },
+  {
+    "id": "IMG_0547",
+    "image": "jpg/IMG_0547_rotated_90.jpg",
+    "text": "transcriptions/IMG_0547.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 86
+  },
+  {
+    "id": "IMG_0548",
+    "image": "jpg/IMG_0548_rotated_90.jpg",
+    "text": "transcriptions/IMG_0548.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 87
+  },
+  {
+    "id": "IMG_0549",
+    "image": "jpg/IMG_0549_rotated_90.jpg",
+    "text": "transcriptions/IMG_0549.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 88
+  },
+  {
+    "id": "IMG_0550",
+    "image": "jpg/IMG_0550_rotated_90.jpg",
+    "text": "transcriptions/IMG_0550.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 89
+  },
+  {
+    "id": "IMG_0551",
+    "image": "jpg/IMG_0551_rotated_90.jpg",
+    "text": "transcriptions/IMG_0551.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 90
+  },
+  {
+    "id": "IMG_0552",
+    "image": "jpg/IMG_0552_rotated_90.jpg",
+    "text": "transcriptions/IMG_0552.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 91
+  },
+  {
+    "id": "IMG_0553",
+    "image": "jpg/IMG_0553_rotated_90.jpg",
+    "text": "transcriptions/IMG_0553.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 92
+  },
+  {
+    "id": "IMG_0554",
+    "image": "jpg/IMG_0554_rotated_90.jpg",
+    "text": "transcriptions/IMG_0554.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 93
+  },
+  {
+    "id": "IMG_0555",
+    "image": "jpg/IMG_0555_rotated_90.jpg",
+    "text": "transcriptions/IMG_0555.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 94
+  },
+  {
+    "id": "IMG_0556",
+    "image": "jpg/IMG_0556_rotated_90.jpg",
+    "text": "transcriptions/IMG_0556.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 95
+  },
+  {
+    "id": "IMG_0557",
+    "image": "jpg/IMG_0557_rotated_90.jpg",
+    "text": "transcriptions/IMG_0557.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 96
+  },
+  {
+    "id": "IMG_0558",
+    "image": "jpg/IMG_0558_rotated_90.jpg",
+    "text": "transcriptions/IMG_0558.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 97
+  },
+  {
+    "id": "IMG_0559",
+    "image": "jpg/IMG_0559_rotated_90.jpg",
+    "text": "transcriptions/IMG_0559.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 98
+  },
+  {
+    "id": "IMG_0560",
+    "image": "jpg/IMG_0560_rotated_90.jpg",
+    "text": "transcriptions/IMG_0560.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 99
+  },
+  {
+    "id": "IMG_0561",
+    "image": "jpg/IMG_0561_rotated_90.jpg",
+    "text": "transcriptions/IMG_0561.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 100
+  },
+  {
+    "id": "IMG_0562",
+    "image": "jpg/IMG_0562_rotated_90.jpg",
+    "text": "transcriptions/IMG_0562.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 101
+  },
+  {
+    "id": "IMG_0563",
+    "image": "jpg/IMG_0563_rotated_90.jpg",
+    "text": "transcriptions/IMG_0563.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 102
+  },
+  {
+    "id": "IMG_0564",
+    "image": "jpg/IMG_0564_rotated_90.jpg",
+    "text": "transcriptions/IMG_0564.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 103
+  },
+  {
+    "id": "IMG_0565",
+    "image": "jpg/IMG_0565_rotated_90.jpg",
+    "text": "transcriptions/IMG_0565.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 104
+  },
+  {
+    "id": "IMG_0566",
+    "image": "jpg/IMG_0566_rotated_90.jpg",
+    "text": "transcriptions/IMG_0566.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 105
+  },
+  {
+    "id": "IMG_0567",
+    "image": "jpg/IMG_0567_rotated_90.jpg",
+    "text": "transcriptions/IMG_0567.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 106
+  },
+  {
+    "id": "IMG_0568",
+    "image": "jpg/IMG_0568_rotated_90.jpg",
+    "text": "transcriptions/IMG_0568.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 107
+  },
+  {
+    "id": "IMG_0569",
+    "image": "jpg/IMG_0569_rotated_90.jpg",
+    "text": "transcriptions/IMG_0569.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 108
+  },
+  {
+    "id": "IMG_0570",
+    "image": "jpg/IMG_0570_rotated_90.jpg",
+    "text": "transcriptions/IMG_0570.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 109
+  },
+  {
+    "id": "IMG_0571",
+    "image": "jpg/IMG_0571_rotated_90.jpg",
+    "text": "transcriptions/IMG_0571.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 110
+  },
+  {
+    "id": "IMG_0572",
+    "image": "jpg/IMG_0572_rotated_90.jpg",
+    "text": "transcriptions/IMG_0572.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 111
+  },
+  {
+    "id": "IMG_0573",
+    "image": "jpg/IMG_0573_rotated_90.jpg",
+    "text": "transcriptions/IMG_0573.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 112
+  },
+  {
+    "id": "IMG_0574",
+    "image": "jpg/IMG_0574_rotated_90.jpg",
+    "text": "transcriptions/IMG_0574.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 113
+  },
+  {
+    "id": "IMG_0575",
+    "image": "jpg/IMG_0575_rotated_90.jpg",
+    "text": "transcriptions/IMG_0575.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 114
+  },
+  {
+    "id": "IMG_0576",
+    "image": "jpg/IMG_0576_rotated_90.jpg",
+    "text": "transcriptions/IMG_0576.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 115
+  },
+  {
+    "id": "IMG_0577",
+    "image": "jpg/IMG_0577_rotated_90.jpg",
+    "text": "transcriptions/IMG_0577.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 116
+  },
+  {
+    "id": "IMG_0578",
+    "image": "jpg/IMG_0578_rotated_90.jpg",
+    "text": "transcriptions/IMG_0578.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 117
+  },
+  {
+    "id": "IMG_0579",
+    "image": "jpg/IMG_0579_rotated_90.jpg",
+    "text": "transcriptions/IMG_0579.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 118
+  },
+  {
+    "id": "IMG_0580",
+    "image": "jpg/IMG_0580_rotated_90.jpg",
+    "text": "transcriptions/IMG_0580.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 119
+  },
+  {
+    "id": "IMG_0581",
+    "image": "jpg/IMG_0581_rotated_90.jpg",
+    "text": "transcriptions/IMG_0581.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 120
+  },
+  {
+    "id": "IMG_0582",
+    "image": "jpg/IMG_0582_rotated_90.jpg",
+    "text": "transcriptions/IMG_0582.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 121
+  },
+  {
+    "id": "IMG_0583",
+    "image": "jpg/IMG_0583_rotated_90.jpg",
+    "text": "transcriptions/IMG_0583.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 122
+  },
+  {
+    "id": "IMG_0584",
+    "image": "jpg/IMG_0584_rotated_90.jpg",
+    "text": "transcriptions/IMG_0584.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 123
+  },
+  {
+    "id": "IMG_0585",
+    "image": "jpg/IMG_0585_rotated_90.jpg",
+    "text": "transcriptions/IMG_0585.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 124
+  },
+  {
+    "id": "IMG_0586",
+    "image": "jpg/IMG_0586_rotated_90.jpg",
+    "text": "transcriptions/IMG_0586.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 125
+  },
+  {
+    "id": "IMG_0587",
+    "image": "jpg/IMG_0587_rotated_90.jpg",
+    "text": "transcriptions/IMG_0587.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 126
+  },
+  {
+    "id": "IMG_0588",
+    "image": "jpg/IMG_0588_rotated_90.jpg",
+    "text": "transcriptions/IMG_0588.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 127
+  },
+  {
+    "id": "IMG_0589",
+    "image": "jpg/IMG_0589_rotated_90.jpg",
+    "text": "transcriptions/IMG_0589.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 128
+  },
+  {
+    "id": "IMG_0590",
+    "image": "jpg/IMG_0590_rotated_90.jpg",
+    "text": "transcriptions/IMG_0590.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 129
+  },
+  {
+    "id": "IMG_0591",
+    "image": "jpg/IMG_0591_rotated_90.jpg",
+    "text": "transcriptions/IMG_0591.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 130
+  },
+  {
+    "id": "IMG_0592",
+    "image": "jpg/IMG_0592_rotated_90.jpg",
+    "text": "transcriptions/IMG_0592.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 131
+  },
+  {
+    "id": "IMG_0593",
+    "image": "jpg/IMG_0593_rotated_90.jpg",
+    "text": "transcriptions/IMG_0593.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 132
+  },
+  {
+    "id": "IMG_0594",
+    "image": "jpg/IMG_0594_rotated_90.jpg",
+    "text": "transcriptions/IMG_0594.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 133
+  },
+  {
+    "id": "IMG_0595",
+    "image": "jpg/IMG_0595_rotated_90.jpg",
+    "text": "transcriptions/IMG_0595.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 134
+  },
+  {
+    "id": "IMG_0596",
+    "image": "jpg/IMG_0596_rotated_90.jpg",
+    "text": "transcriptions/IMG_0596.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 135
+  },
+  {
+    "id": "IMG_0597",
+    "image": "jpg/IMG_0597_rotated_90.jpg",
+    "text": "transcriptions/IMG_0597.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 136
+  },
+  {
+    "id": "IMG_0598",
+    "image": "jpg/IMG_0598_rotated_90.jpg",
+    "text": "transcriptions/IMG_0598.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 137
+  },
+  {
+    "id": "IMG_0599",
+    "image": "jpg/IMG_0599_rotated_90.jpg",
+    "text": "transcriptions/IMG_0599.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 138
+  },
+  {
+    "id": "IMG_0600",
+    "image": "jpg/IMG_0600_rotated_90.jpg",
+    "text": "transcriptions/IMG_0600.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 139
+  },
+  {
+    "id": "IMG_0601",
+    "image": "jpg/IMG_0601_rotated_90.jpg",
+    "text": "transcriptions/IMG_0601.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 140
+  },
+  {
+    "id": "IMG_0602",
+    "image": "jpg/IMG_0602_rotated_90.jpg",
+    "text": "transcriptions/IMG_0602.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 141
+  },
+  {
+    "id": "IMG_0603",
+    "image": "jpg/IMG_0603_rotated_90.jpg",
+    "text": "transcriptions/IMG_0603.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 142
+  },
+  {
+    "id": "IMG_0604",
+    "image": "jpg/IMG_0604_rotated_90.jpg",
+    "text": "transcriptions/IMG_0604.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 143
+  },
+  {
+    "id": "IMG_0605",
+    "image": "jpg/IMG_0605_rotated_90.jpg",
+    "text": "transcriptions/IMG_0605.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 144
+  },
+  {
+    "id": "IMG_0606",
+    "image": "jpg/IMG_0606_rotated_90.jpg",
+    "text": "transcriptions/IMG_0606.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 145
+  },
+  {
+    "id": "IMG_0607",
+    "image": "jpg/IMG_0607_rotated_90.jpg",
+    "text": "transcriptions/IMG_0607.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 146
+  },
+  {
+    "id": "IMG_0608",
+    "image": "jpg/IMG_0608_rotated_90.jpg",
+    "text": "transcriptions/IMG_0608.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 147
+  },
+  {
+    "id": "IMG_0609",
+    "image": "jpg/IMG_0609_rotated_90.jpg",
+    "text": "transcriptions/IMG_0609.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 148
+  },
+  {
+    "id": "IMG_0610",
+    "image": "jpg/IMG_0610_rotated_90.jpg",
+    "text": "transcriptions/IMG_0610.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 149
+  },
+  {
+    "id": "IMG_0611",
+    "image": "jpg/IMG_0611_rotated_90.jpg",
+    "text": "transcriptions/IMG_0611.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 150
+  },
+  {
+    "id": "IMG_0612",
+    "image": "jpg/IMG_0612_rotated_90.jpg",
+    "text": "transcriptions/IMG_0612.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 151
+  },
+  {
+    "id": "IMG_0613",
+    "image": "jpg/IMG_0613_rotated_90.jpg",
+    "text": "transcriptions/IMG_0613.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 152
+  },
+  {
+    "id": "IMG_0614",
+    "image": "jpg/IMG_0614_rotated_90.jpg",
+    "text": "transcriptions/IMG_0614.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 153
+  },
+  {
+    "id": "IMG_0615",
+    "image": "jpg/IMG_0615_rotated_90.jpg",
+    "text": "transcriptions/IMG_0615.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 154
+  },
+  {
+    "id": "IMG_0616",
+    "image": "jpg/IMG_0616_rotated_90.jpg",
+    "text": "transcriptions/IMG_0616.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 155
+  },
+  {
+    "id": "IMG_0618",
+    "image": "jpg/IMG_0618_rotated_90.jpg",
+    "text": "transcriptions/IMG_0618.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 156
+  },
+  {
+    "id": "IMG_0619",
+    "image": "jpg/IMG_0619_rotated_90.jpg",
+    "text": "transcriptions/IMG_0619.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 157
+  },
+  {
+    "id": "IMG_0620",
+    "image": "jpg/IMG_0620_rotated_90.jpg",
+    "text": "transcriptions/IMG_0620.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 158
+  },
+  {
+    "id": "IMG_0621",
+    "image": "jpg/IMG_0621_rotated_90.jpg",
+    "text": "transcriptions/IMG_0621.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 159
+  },
+  {
+    "id": "IMG_0622",
+    "image": "jpg/IMG_0622_rotated_90.jpg",
+    "text": "transcriptions/IMG_0622.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 160
+  },
+  {
+    "id": "IMG_0623",
+    "image": "jpg/IMG_0623_rotated_90.jpg",
+    "text": "transcriptions/IMG_0623.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 161
+  },
+  {
+    "id": "IMG_0624",
+    "image": "jpg/IMG_0624_rotated_90.jpg",
+    "text": "transcriptions/IMG_0624.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 162
+  },
+  {
+    "id": "IMG_0625",
+    "image": "jpg/IMG_0625_rotated_90.jpg",
+    "text": "transcriptions/IMG_0625.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 163
+  },
+  {
+    "id": "IMG_0626",
+    "image": "jpg/IMG_0626_rotated_90.jpg",
+    "text": "transcriptions/IMG_0626.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 164
+  },
+  {
+    "id": "IMG_0627",
+    "image": "jpg/IMG_0627_rotated_90.jpg",
+    "text": "transcriptions/IMG_0627.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 165
+  },
+  {
+    "id": "IMG_0628",
+    "image": "jpg/IMG_0628_rotated_90.jpg",
+    "text": "transcriptions/IMG_0628.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 166
+  },
+  {
+    "id": "IMG_0629",
+    "image": "jpg/IMG_0629_rotated_90.jpg",
+    "text": "transcriptions/IMG_0629.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 167
+  },
+  {
+    "id": "IMG_0630",
+    "image": "jpg/IMG_0630_rotated_90.jpg",
+    "text": "transcriptions/IMG_0630.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 168
+  },
+  {
+    "id": "IMG_0631",
+    "image": "jpg/IMG_0631_rotated_90.jpg",
+    "text": "transcriptions/IMG_0631.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 169
+  },
+  {
+    "id": "IMG_0632",
+    "image": "jpg/IMG_0632_rotated_90.jpg",
+    "text": "transcriptions/IMG_0632.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 170
+  },
+  {
+    "id": "IMG_0633",
+    "image": "jpg/IMG_0633_rotated_90.jpg",
+    "text": "transcriptions/IMG_0633.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 171
+  },
+  {
+    "id": "IMG_0634",
+    "image": "jpg/IMG_0634_rotated_90.jpg",
+    "text": "transcriptions/IMG_0634.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 172
+  },
+  {
+    "id": "IMG_0635",
+    "image": "jpg/IMG_0635_rotated_90.jpg",
+    "text": "transcriptions/IMG_0635.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 173
+  },
+  {
+    "id": "IMG_0636",
+    "image": "jpg/IMG_0636_rotated_90.jpg",
+    "text": "transcriptions/IMG_0636.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 174
+  },
+  {
+    "id": "IMG_0637",
+    "image": "jpg/IMG_0637_rotated_90.jpg",
+    "text": "transcriptions/IMG_0637.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 175
+  },
+  {
+    "id": "IMG_0638",
+    "image": "jpg/IMG_0638_rotated_90.jpg",
+    "text": "transcriptions/IMG_0638.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 176
+  },
+  {
+    "id": "IMG_0639",
+    "image": "jpg/IMG_0639_rotated_90.jpg",
+    "text": "transcriptions/IMG_0639.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 177
+  },
+  {
+    "id": "IMG_0640",
+    "image": "jpg/IMG_0640_rotated_90.jpg",
+    "text": "transcriptions/IMG_0640.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 178
+  },
+  {
+    "id": "IMG_0641",
+    "image": "jpg/IMG_0641_rotated_90.jpg",
+    "text": "transcriptions/IMG_0641.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 179
+  },
+  {
+    "id": "IMG_0642",
+    "image": "jpg/IMG_0642_rotated_90.jpg",
+    "text": "transcriptions/IMG_0642.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 180
+  },
+  {
+    "id": "IMG_0643",
+    "image": "jpg/IMG_0643_rotated_90.jpg",
+    "text": "transcriptions/IMG_0643.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 181
+  },
+  {
+    "id": "IMG_0644",
+    "image": "jpg/IMG_0644_rotated_90.jpg",
+    "text": "transcriptions/IMG_0644.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 182
+  },
+  {
+    "id": "IMG_0645",
+    "image": "jpg/IMG_0645_rotated_90.jpg",
+    "text": "transcriptions/IMG_0645.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 183
+  },
+  {
+    "id": "IMG_0646",
+    "image": "jpg/IMG_0646_rotated_90.jpg",
+    "text": "transcriptions/IMG_0646.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 184
+  },
+  {
+    "id": "IMG_0647",
+    "image": "jpg/IMG_0647_rotated_90.jpg",
+    "text": "transcriptions/IMG_0647.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 185
+  },
+  {
+    "id": "IMG_0648",
+    "image": "jpg/IMG_0648_rotated_90.jpg",
+    "text": "transcriptions/IMG_0648.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 186
+  },
+  {
+    "id": "IMG_0649",
+    "image": "jpg/IMG_0649_rotated_90.jpg",
+    "text": "transcriptions/IMG_0649.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 187
+  },
+  {
+    "id": "IMG_0650",
+    "image": "jpg/IMG_0650_rotated_90.jpg",
+    "text": "transcriptions/IMG_0650.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 188
+  },
+  {
+    "id": "IMG_0651",
+    "image": "jpg/IMG_0651_rotated_90.jpg",
+    "text": "transcriptions/IMG_0651.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 189
+  },
+  {
+    "id": "IMG_0652",
+    "image": "jpg/IMG_0652_rotated_90.jpg",
+    "text": "transcriptions/IMG_0652.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 190
+  },
+  {
+    "id": "IMG_0653",
+    "image": "jpg/IMG_0653_rotated_90.jpg",
+    "text": "transcriptions/IMG_0653.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 191
+  },
+  {
+    "id": "IMG_0654",
+    "image": "jpg/IMG_0654_rotated_90.jpg",
+    "text": "transcriptions/IMG_0654.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 192
+  },
+  {
+    "id": "IMG_0655",
+    "image": "jpg/IMG_0655_rotated_90.jpg",
+    "text": "transcriptions/IMG_0655.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 193
+  },
+  {
+    "id": "IMG_0656",
+    "image": "jpg/IMG_0656_rotated_90.jpg",
+    "text": "transcriptions/IMG_0656.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 194
+  },
+  {
+    "id": "IMG_0657",
+    "image": "jpg/IMG_0657_rotated_90.jpg",
+    "text": "transcriptions/IMG_0657.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 195
+  },
+  {
+    "id": "IMG_0658",
+    "image": "jpg/IMG_0658_rotated_90.jpg",
+    "text": "transcriptions/IMG_0658.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 196
+  },
+  {
+    "id": "IMG_0659",
+    "image": "jpg/IMG_0659_rotated_90.jpg",
+    "text": "transcriptions/IMG_0659.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 197
+  },
+  {
+    "id": "IMG_0660",
+    "image": "jpg/IMG_0660_rotated_90.jpg",
+    "text": "transcriptions/IMG_0660.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 198
+  },
+  {
+    "id": "IMG_0661",
+    "image": "jpg/IMG_0661_rotated_90.jpg",
+    "text": "transcriptions/IMG_0661.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 199
+  },
+  {
+    "id": "IMG_0662",
+    "image": "jpg/IMG_0662_rotated_90.jpg",
+    "text": "transcriptions/IMG_0662.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 200
+  },
+  {
+    "id": "IMG_0663",
+    "image": "jpg/IMG_0663_rotated_90.jpg",
+    "text": "transcriptions/IMG_0663.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 201
+  },
+  {
+    "id": "IMG_0664",
+    "image": "jpg/IMG_0664_rotated_90.jpg",
+    "text": "transcriptions/IMG_0664.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 202
+  },
+  {
+    "id": "IMG_0665",
+    "image": "jpg/IMG_0665_rotated_90.jpg",
+    "text": "transcriptions/IMG_0665.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 203
+  },
+  {
+    "id": "IMG_0666",
+    "image": "jpg/IMG_0666_rotated_90.jpg",
+    "text": "transcriptions/IMG_0666.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 204
+  },
+  {
+    "id": "IMG_0667",
+    "image": "jpg/IMG_0667_rotated_90.jpg",
+    "text": "transcriptions/IMG_0667.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 205
+  },
+  {
+    "id": "IMG_0668",
+    "image": "jpg/IMG_0668_rotated_90.jpg",
+    "text": "transcriptions/IMG_0668.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 206
+  },
+  {
+    "id": "IMG_0669",
+    "image": "jpg/IMG_0669_rotated_90.jpg",
+    "text": "transcriptions/IMG_0669.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 207
+  },
+  {
+    "id": "IMG_0670",
+    "image": "jpg/IMG_0670_rotated_90.jpg",
+    "text": "transcriptions/IMG_0670.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 208
+  },
+  {
+    "id": "IMG_0671",
+    "image": "jpg/IMG_0671_rotated_90.jpg",
+    "text": "transcriptions/IMG_0671.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 209
+  },
+  {
+    "id": "IMG_0672",
+    "image": "jpg/IMG_0672_rotated_90.jpg",
+    "text": "transcriptions/IMG_0672.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 210
+  },
+  {
+    "id": "IMG_0673",
+    "image": "jpg/IMG_0673_rotated_90.jpg",
+    "text": "transcriptions/IMG_0673.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 211
+  },
+  {
+    "id": "IMG_0674",
+    "image": "jpg/IMG_0674_rotated_90.jpg",
+    "text": "transcriptions/IMG_0674.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 212
+  },
+  {
+    "id": "IMG_0675",
+    "image": "jpg/IMG_0675_rotated_90.jpg",
+    "text": "transcriptions/IMG_0675.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 213
+  },
+  {
+    "id": "IMG_0676",
+    "image": "jpg/IMG_0676_rotated_90.jpg",
+    "text": "transcriptions/IMG_0676.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 214
+  },
+  {
+    "id": "IMG_0677",
+    "image": "jpg/IMG_0677_rotated_90.jpg",
+    "text": "transcriptions/IMG_0677.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 215
+  },
+  {
+    "id": "IMG_0678",
+    "image": "jpg/IMG_0678_rotated_90.jpg",
+    "text": "transcriptions/IMG_0678.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 216
+  },
+  {
+    "id": "IMG_0679",
+    "image": "jpg/IMG_0679_rotated_90.jpg",
+    "text": "transcriptions/IMG_0679.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 217
+  },
+  {
+    "id": "IMG_0680",
+    "image": "jpg/IMG_0680_rotated_90.jpg",
+    "text": "transcriptions/IMG_0680.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 218
+  },
+  {
+    "id": "IMG_0681",
+    "image": "jpg/IMG_0681_rotated_90.jpg",
+    "text": "transcriptions/IMG_0681.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 219
+  },
+  {
+    "id": "IMG_0682",
+    "image": "jpg/IMG_0682_rotated_90.jpg",
+    "text": "transcriptions/IMG_0682.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 220
+  },
+  {
+    "id": "IMG_0683",
+    "image": "jpg/IMG_0683_rotated_90.jpg",
+    "text": "transcriptions/IMG_0683.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 221
+  },
+  {
+    "id": "IMG_0684",
+    "image": "jpg/IMG_0684_rotated_90.jpg",
+    "text": "transcriptions/IMG_0684.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 222
+  },
+  {
+    "id": "IMG_0685",
+    "image": "jpg/IMG_0685_rotated_90.jpg",
+    "text": "transcriptions/IMG_0685.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 223
+  },
+  {
+    "id": "IMG_0686",
+    "image": "jpg/IMG_0686_rotated_90.jpg",
+    "text": "transcriptions/IMG_0686.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 224
+  },
+  {
+    "id": "IMG_0687",
+    "image": "jpg/IMG_0687_rotated_90.jpg",
+    "text": "transcriptions/IMG_0687.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 225
+  },
+  {
+    "id": "IMG_0688",
+    "image": "jpg/IMG_0688_rotated_90.jpg",
+    "text": "transcriptions/IMG_0688.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 226
+  },
+  {
+    "id": "IMG_0689",
+    "image": "jpg/IMG_0689_rotated_90.jpg",
+    "text": "transcriptions/IMG_0689.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 227
+  },
+  {
+    "id": "IMG_0690",
+    "image": "jpg/IMG_0690_rotated_90.jpg",
+    "text": "transcriptions/IMG_0690.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 228
+  },
+  {
+    "id": "IMG_0691",
+    "image": "jpg/IMG_0691_rotated_90.jpg",
+    "text": "transcriptions/IMG_0691.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 229
+  },
+  {
+    "id": "IMG_0692",
+    "image": "jpg/IMG_0692_rotated_90.jpg",
+    "text": "transcriptions/IMG_0692.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 230
+  },
+  {
+    "id": "IMG_0693",
+    "image": "jpg/IMG_0693_rotated_90.jpg",
+    "text": "transcriptions/IMG_0693.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 231
+  },
+  {
+    "id": "IMG_0694",
+    "image": "jpg/IMG_0694_rotated_90.jpg",
+    "text": "transcriptions/IMG_0694.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 232
+  },
+  {
+    "id": "IMG_0695",
+    "image": "jpg/IMG_0695_rotated_90.jpg",
+    "text": "transcriptions/IMG_0695.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 233
+  },
+  {
+    "id": "IMG_0696",
+    "image": "jpg/IMG_0696_rotated_90.jpg",
+    "text": "transcriptions/IMG_0696.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 234
+  },
+  {
+    "id": "IMG_0697",
+    "image": "jpg/IMG_0697_rotated_90.jpg",
+    "text": "transcriptions/IMG_0697.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 235
+  },
+  {
+    "id": "IMG_0698",
+    "image": "jpg/IMG_0698_rotated_90.jpg",
+    "text": "transcriptions/IMG_0698.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 236
+  },
+  {
+    "id": "IMG_0699",
+    "image": "jpg/IMG_0699_rotated_90.jpg",
+    "text": "transcriptions/IMG_0699.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 237
+  },
+  {
+    "id": "IMG_0700",
+    "image": "jpg/IMG_0700_rotated_90.jpg",
+    "text": "transcriptions/IMG_0700.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 238
+  },
+  {
+    "id": "IMG_0701",
+    "image": "jpg/IMG_0701_rotated_90.jpg",
+    "text": "transcriptions/IMG_0701.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 239
+  },
+  {
+    "id": "IMG_0702",
+    "image": "jpg/IMG_0702_rotated_90.jpg",
+    "text": "transcriptions/IMG_0702.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 240
+  },
+  {
+    "id": "IMG_0703",
+    "image": "jpg/IMG_0703_rotated_90.jpg",
+    "text": "transcriptions/IMG_0703.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 241
+  },
+  {
+    "id": "IMG_0704",
+    "image": "jpg/IMG_0704_rotated_90.jpg",
+    "text": "transcriptions/IMG_0704.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 242
+  },
+  {
+    "id": "IMG_0705",
+    "image": "jpg/IMG_0705_rotated_90.jpg",
+    "text": "transcriptions/IMG_0705.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 243
+  },
+  {
+    "id": "IMG_0706",
+    "image": "jpg/IMG_0706_rotated_90.jpg",
+    "text": "transcriptions/IMG_0706.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 244
+  },
+  {
+    "id": "IMG_0707",
+    "image": "jpg/IMG_0707_rotated_90.jpg",
+    "text": "transcriptions/IMG_0707.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 245
+  },
+  {
+    "id": "IMG_0708",
+    "image": "jpg/IMG_0708_rotated_90.jpg",
+    "text": "transcriptions/IMG_0708.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 246
+  },
+  {
+    "id": "IMG_0709",
+    "image": "jpg/IMG_0709_rotated_90.jpg",
+    "text": "transcriptions/IMG_0709.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 247
+  },
+  {
+    "id": "IMG_0710",
+    "image": "jpg/IMG_0710_rotated_90.jpg",
+    "text": "transcriptions/IMG_0710.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 248
+  },
+  {
+    "id": "IMG_0711",
+    "image": "jpg/IMG_0711_rotated_90.jpg",
+    "text": "transcriptions/IMG_0711.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 249
+  },
+  {
+    "id": "IMG_0712",
+    "image": "jpg/IMG_0712_rotated_90.jpg",
+    "text": "transcriptions/IMG_0712.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 250
+  },
+  {
+    "id": "IMG_0713",
+    "image": "jpg/IMG_0713_rotated_90.jpg",
+    "text": "transcriptions/IMG_0713.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 251
+  },
+  {
+    "id": "IMG_0714",
+    "image": "jpg/IMG_0714_rotated_90.jpg",
+    "text": "transcriptions/IMG_0714.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 252
+  },
+  {
+    "id": "IMG_0715",
+    "image": "jpg/IMG_0715_rotated_90.jpg",
+    "text": "transcriptions/IMG_0715.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 253
+  },
+  {
+    "id": "IMG_0716",
+    "image": "jpg/IMG_0716_rotated_90.jpg",
+    "text": "transcriptions/IMG_0716.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 254
+  },
+  {
+    "id": "IMG_0717",
+    "image": "jpg/IMG_0717_rotated_90.jpg",
+    "text": "transcriptions/IMG_0717.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 255
+  },
+  {
+    "id": "IMG_0718",
+    "image": "jpg/IMG_0718_rotated_90.jpg",
+    "text": "transcriptions/IMG_0718.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 256
+  },
+  {
+    "id": "IMG_0719",
+    "image": "jpg/IMG_0719_rotated_90.jpg",
+    "text": "transcriptions/IMG_0719.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 257
+  },
+  {
+    "id": "IMG_0720",
+    "image": "jpg/IMG_0720_rotated_90.jpg",
+    "text": "transcriptions/IMG_0720.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 258
+  },
+  {
+    "id": "IMG_0721",
+    "image": "jpg/IMG_0721_rotated_90.jpg",
+    "text": "transcriptions/IMG_0721.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 259
+  },
+  {
+    "id": "IMG_0722",
+    "image": "jpg/IMG_0722_rotated_90.jpg",
+    "text": "transcriptions/IMG_0722.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 260
+  },
+  {
+    "id": "IMG_0723",
+    "image": "jpg/IMG_0723_rotated_90.jpg",
+    "text": "transcriptions/IMG_0723.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 261
+  },
+  {
+    "id": "IMG_0724",
+    "image": "jpg/IMG_0724_rotated_90.jpg",
+    "text": "transcriptions/IMG_0724.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 262
+  },
+  {
+    "id": "IMG_0725",
+    "image": "jpg/IMG_0725_rotated_90.jpg",
+    "text": "transcriptions/IMG_0725.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 263
+  },
+  {
+    "id": "IMG_0726",
+    "image": "jpg/IMG_0726_rotated_90.jpg",
+    "text": "transcriptions/IMG_0726.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 264
+  },
+  {
+    "id": "IMG_0727",
+    "image": "jpg/IMG_0727_rotated_90.jpg",
+    "text": "transcriptions/IMG_0727.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 265
+  },
+  {
+    "id": "IMG_0728",
+    "image": "jpg/IMG_0728_rotated_90.jpg",
+    "text": "transcriptions/IMG_0728.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 266
+  },
+  {
+    "id": "IMG_0729",
+    "image": "jpg/IMG_0729_rotated_90.jpg",
+    "text": "transcriptions/IMG_0729.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 267
+  },
+  {
+    "id": "IMG_0730",
+    "image": "jpg/IMG_0730_rotated_90.jpg",
+    "text": "transcriptions/IMG_0730.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 268
+  },
+  {
+    "id": "IMG_0731",
+    "image": "jpg/IMG_0731_rotated_90.jpg",
+    "text": "transcriptions/IMG_0731.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 269
+  },
+  {
+    "id": "IMG_0732",
+    "image": "jpg/IMG_0732_rotated_90.jpg",
+    "text": "transcriptions/IMG_0732.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 270
+  },
+  {
+    "id": "IMG_0733",
+    "image": "jpg/IMG_0733_rotated_90.jpg",
+    "text": "transcriptions/IMG_0733.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 271
+  },
+  {
+    "id": "IMG_0734",
+    "image": "jpg/IMG_0734_rotated_90.jpg",
+    "text": "transcriptions/IMG_0734.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 272
+  },
+  {
+    "id": "IMG_0735",
+    "image": "jpg/IMG_0735_rotated_90.jpg",
+    "text": "transcriptions/IMG_0735.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 273
+  },
+  {
+    "id": "IMG_0736",
+    "image": "jpg/IMG_0736_rotated_90.jpg",
+    "text": "transcriptions/IMG_0736.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 274
+  },
+  {
+    "id": "IMG_0737",
+    "image": "jpg/IMG_0737_rotated_90.jpg",
+    "text": "transcriptions/IMG_0737.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 275
+  },
+  {
+    "id": "IMG_0738",
+    "image": "jpg/IMG_0738_rotated_90.jpg",
+    "text": "transcriptions/IMG_0738.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 276
+  },
+  {
+    "id": "IMG_0739",
+    "image": "jpg/IMG_0739_rotated_90.jpg",
+    "text": "transcriptions/IMG_0739.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 277
+  },
+  {
+    "id": "IMG_0740",
+    "image": "jpg/IMG_0740_rotated_90.jpg",
+    "text": "transcriptions/IMG_0740.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 278
+  },
+  {
+    "id": "IMG_0741",
+    "image": "jpg/IMG_0741_rotated_90.jpg",
+    "text": "transcriptions/IMG_0741.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 279
+  },
+  {
+    "id": "IMG_0742",
+    "image": "jpg/IMG_0742_rotated_90.jpg",
+    "text": "transcriptions/IMG_0742.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 280
+  },
+  {
+    "id": "IMG_0743",
+    "image": "jpg/IMG_0743_rotated_90.jpg",
+    "text": "transcriptions/IMG_0743.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 281
+  },
+  {
+    "id": "IMG_0744",
+    "image": "jpg/IMG_0744_rotated_90.jpg",
+    "text": "transcriptions/IMG_0744.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 282
+  },
+  {
+    "id": "IMG_0745",
+    "image": "jpg/IMG_0745_rotated_90.jpg",
+    "text": "transcriptions/IMG_0745.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 283
+  },
+  {
+    "id": "IMG_0746",
+    "image": "jpg/IMG_0746_rotated_90.jpg",
+    "text": "transcriptions/IMG_0746.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 284
+  },
+  {
+    "id": "IMG_0747",
+    "image": "jpg/IMG_0747_rotated_90.jpg",
+    "text": "transcriptions/IMG_0747.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 285
+  },
+  {
+    "id": "IMG_0748",
+    "image": "jpg/IMG_0748_rotated_90.jpg",
+    "text": "transcriptions/IMG_0748.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 286
+  },
+  {
+    "id": "IMG_0749",
+    "image": "jpg/IMG_0749_rotated_90.jpg",
+    "text": "transcriptions/IMG_0749.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 287
+  },
+  {
+    "id": "IMG_0750",
+    "image": "jpg/IMG_0750_rotated_90.jpg",
+    "text": "transcriptions/IMG_0750.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 288
+  },
+  {
+    "id": "IMG_0751",
+    "image": "jpg/IMG_0751_rotated_90.jpg",
+    "text": "transcriptions/IMG_0751.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 289
+  },
+  {
+    "id": "IMG_0752",
+    "image": "jpg/IMG_0752_rotated_90.jpg",
+    "text": "transcriptions/IMG_0752.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 290
+  },
+  {
+    "id": "IMG_0753",
+    "image": "jpg/IMG_0753_rotated_90.jpg",
+    "text": "transcriptions/IMG_0753.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 291
+  },
+  {
+    "id": "IMG_0754",
+    "image": "jpg/IMG_0754_rotated_90.jpg",
+    "text": "transcriptions/IMG_0754.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 292
+  },
+  {
+    "id": "IMG_0755",
+    "image": "jpg/IMG_0755_rotated_90.jpg",
+    "text": "transcriptions/IMG_0755.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 293
+  },
+  {
+    "id": "IMG_0756",
+    "image": "jpg/IMG_0756_rotated_90.jpg",
+    "text": "transcriptions/IMG_0756.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 294
+  },
+  {
+    "id": "IMG_0757",
+    "image": "jpg/IMG_0757_rotated_90.jpg",
+    "text": "transcriptions/IMG_0757.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 295
+  },
+  {
+    "id": "IMG_0758",
+    "image": "jpg/IMG_0758_rotated_90.jpg",
+    "text": "transcriptions/IMG_0758.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 296
+  },
+  {
+    "id": "IMG_0759",
+    "image": "jpg/IMG_0759_rotated_90.jpg",
+    "text": "transcriptions/IMG_0759.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 297
+  },
+  {
+    "id": "IMG_0760",
+    "image": "jpg/IMG_0760_rotated_90.jpg",
+    "text": "transcriptions/IMG_0760.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 298
+  },
+  {
+    "id": "IMG_0761",
+    "image": "jpg/IMG_0761_rotated_90.jpg",
+    "text": "transcriptions/IMG_0761.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 299
+  },
+  {
+    "id": "IMG_0762",
+    "image": "jpg/IMG_0762_rotated_90.jpg",
+    "text": "transcriptions/IMG_0762.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 300
+  },
+  {
+    "id": "IMG_0763",
+    "image": "jpg/IMG_0763_rotated_90.jpg",
+    "text": "transcriptions/IMG_0763.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 301
+  },
+  {
+    "id": "IMG_0765",
+    "image": "jpg/IMG_0765_rotated_90.jpg",
+    "text": "transcriptions/IMG_0765.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 302
+  },
+  {
+    "id": "IMG_0766",
+    "image": "jpg/IMG_0766_rotated_90.jpg",
+    "text": "transcriptions/IMG_0766.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 303
+  },
+  {
+    "id": "IMG_0767",
+    "image": "jpg/IMG_0767_rotated_90.jpg",
+    "text": "transcriptions/IMG_0767.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 304
+  },
+  {
+    "id": "IMG_0768",
+    "image": "jpg/IMG_0768_rotated_90.jpg",
+    "text": "transcriptions/IMG_0768.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 305
+  },
+  {
+    "id": "IMG_0769",
+    "image": "jpg/IMG_0769_rotated_90.jpg",
+    "text": "transcriptions/IMG_0769.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 306
+  },
+  {
+    "id": "IMG_0770",
+    "image": "jpg/IMG_0770_rotated_90.jpg",
+    "text": "transcriptions/IMG_0770.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 307
+  },
+  {
+    "id": "IMG_0771",
+    "image": "jpg/IMG_0771_rotated_90.jpg",
+    "text": "transcriptions/IMG_0771.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 308
+  },
+  {
+    "id": "IMG_0772",
+    "image": "jpg/IMG_0772_rotated_90.jpg",
+    "text": "transcriptions/IMG_0772.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 309
+  },
+  {
+    "id": "IMG_0773",
+    "image": "jpg/IMG_0773_rotated_90.jpg",
+    "text": "transcriptions/IMG_0773.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 310
+  },
+  {
+    "id": "IMG_0774",
+    "image": "jpg/IMG_0774_rotated_90.jpg",
+    "text": "transcriptions/IMG_0774.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 311
+  },
+  {
+    "id": "IMG_0775",
+    "image": "jpg/IMG_0775_rotated_90.jpg",
+    "text": "transcriptions/IMG_0775.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 312
+  },
+  {
+    "id": "IMG_0776",
+    "image": "jpg/IMG_0776_rotated_90.jpg",
+    "text": "transcriptions/IMG_0776.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 313
+  },
+  {
+    "id": "IMG_0777",
+    "image": "jpg/IMG_0777_rotated_90.jpg",
+    "text": "transcriptions/IMG_0777.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 314
+  },
+  {
+    "id": "IMG_0778",
+    "image": "jpg/IMG_0778_rotated_90.jpg",
+    "text": "transcriptions/IMG_0778.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 315
+  },
+  {
+    "id": "IMG_0779",
+    "image": "jpg/IMG_0779_rotated_90.jpg",
+    "text": "transcriptions/IMG_0779.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 316
+  },
+  {
+    "id": "IMG_0780",
+    "image": "jpg/IMG_0780_rotated_90.jpg",
+    "text": "transcriptions/IMG_0780.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 317
+  },
+  {
+    "id": "IMG_0781",
+    "image": "jpg/IMG_0781_rotated_90.jpg",
+    "text": "transcriptions/IMG_0781.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 318
+  },
+  {
+    "id": "IMG_0782",
+    "image": "jpg/IMG_0782_rotated_90.jpg",
+    "text": "transcriptions/IMG_0782.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 319
+  },
+  {
+    "id": "IMG_0783",
+    "image": "jpg/IMG_0783_rotated_90.jpg",
+    "text": "transcriptions/IMG_0783.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 320
+  },
+  {
+    "id": "IMG_0784",
+    "image": "jpg/IMG_0784_rotated_90.jpg",
+    "text": "transcriptions/IMG_0784.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 321
+  },
+  {
+    "id": "IMG_0785",
+    "image": "jpg/IMG_0785_rotated_90.jpg",
+    "text": "transcriptions/IMG_0785.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 322
+  },
+  {
+    "id": "IMG_0786",
+    "image": "jpg/IMG_0786_rotated_90.jpg",
+    "text": "transcriptions/IMG_0786.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 323
+  },
+  {
+    "id": "IMG_0787",
+    "image": "jpg/IMG_0787_rotated_90.jpg",
+    "text": "transcriptions/IMG_0787.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 324
+  },
+  {
+    "id": "IMG_0788",
+    "image": "jpg/IMG_0788_rotated_90.jpg",
+    "text": "transcriptions/IMG_0788.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 325
+  },
+  {
+    "id": "IMG_0789",
+    "image": "jpg/IMG_0789_rotated_90.jpg",
+    "text": "transcriptions/IMG_0789.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 326
+  },
+  {
+    "id": "IMG_0790",
+    "image": "jpg/IMG_0790_rotated_90.jpg",
+    "text": "transcriptions/IMG_0790.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 327
+  },
+  {
+    "id": "IMG_0791",
+    "image": "jpg/IMG_0791_rotated_90.jpg",
+    "text": "transcriptions/IMG_0791.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 328
+  },
+  {
+    "id": "IMG_0792",
+    "image": "jpg/IMG_0792_rotated_90.jpg",
+    "text": "transcriptions/IMG_0792.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 329
+  },
+  {
+    "id": "IMG_0793",
+    "image": "jpg/IMG_0793_rotated_90.jpg",
+    "text": "transcriptions/IMG_0793.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 330
+  },
+  {
+    "id": "IMG_0794",
+    "image": "jpg/IMG_0794_rotated_90.jpg",
+    "text": "transcriptions/IMG_0794.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 331
+  },
+  {
+    "id": "IMG_0795",
+    "image": "jpg/IMG_0795_rotated_90.jpg",
+    "text": "transcriptions/IMG_0795.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 332
+  },
+  {
+    "id": "IMG_0796",
+    "image": "jpg/IMG_0796_rotated_90.jpg",
+    "text": "transcriptions/IMG_0796.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 333
+  },
+  {
+    "id": "IMG_0797",
+    "image": "jpg/IMG_0797_rotated_90.jpg",
+    "text": "transcriptions/IMG_0797.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 334
+  },
+  {
+    "id": "IMG_0798",
+    "image": "jpg/IMG_0798_rotated_90.jpg",
+    "text": "transcriptions/IMG_0798.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 335
+  },
+  {
+    "id": "IMG_0799",
+    "image": "jpg/IMG_0799_rotated_90.jpg",
+    "text": "transcriptions/IMG_0799.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 336
+  },
+  {
+    "id": "IMG_0801",
+    "image": "jpg/IMG_0801_rotated_90.jpg",
+    "text": "transcriptions/IMG_0801.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 337
+  },
+  {
+    "id": "IMG_0802",
+    "image": "jpg/IMG_0802_rotated_90.jpg",
+    "text": "transcriptions/IMG_0802.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 338
+  },
+  {
+    "id": "IMG_0803",
+    "image": "jpg/IMG_0803_rotated_90.jpg",
+    "text": "transcriptions/IMG_0803.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 339
+  },
+  {
+    "id": "IMG_0805",
+    "image": "jpg/IMG_0805_rotated_90.jpg",
+    "text": "transcriptions/IMG_0805.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 340
+  },
+  {
+    "id": "IMG_0806",
+    "image": "jpg/IMG_0806_rotated_90.jpg",
+    "text": "transcriptions/IMG_0806.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 341
+  },
+  {
+    "id": "IMG_0807",
+    "image": "jpg/IMG_0807_rotated_90.jpg",
+    "text": "transcriptions/IMG_0807.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 342
+  },
+  {
+    "id": "IMG_0808",
+    "image": "jpg/IMG_0808_rotated_90.jpg",
+    "text": "transcriptions/IMG_0808.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 343
+  },
+  {
+    "id": "IMG_0809",
+    "image": "jpg/IMG_0809_rotated_90.jpg",
+    "text": "transcriptions/IMG_0809.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 344
+  },
+  {
+    "id": "IMG_0810",
+    "image": "jpg/IMG_0810_rotated_90.jpg",
+    "text": "transcriptions/IMG_0810.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 345
+  },
+  {
+    "id": "IMG_0811",
+    "image": "jpg/IMG_0811_rotated_90.jpg",
+    "text": "transcriptions/IMG_0811.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 346
+  },
+  {
+    "id": "IMG_0812",
+    "image": "jpg/IMG_0812_rotated_90.jpg",
+    "text": "transcriptions/IMG_0812.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 347
+  },
+  {
+    "id": "IMG_0813",
+    "image": "jpg/IMG_0813_rotated_90.jpg",
+    "text": "transcriptions/IMG_0813.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 348
+  },
+  {
+    "id": "IMG_0814",
+    "image": "jpg/IMG_0814_rotated_90.jpg",
+    "text": "transcriptions/IMG_0814.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 349
+  },
+  {
+    "id": "IMG_0815",
+    "image": "jpg/IMG_0815_rotated_90.jpg",
+    "text": "transcriptions/IMG_0815.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 350
+  },
+  {
+    "id": "IMG_0816",
+    "image": "jpg/IMG_0816_rotated_90.jpg",
+    "text": "transcriptions/IMG_0816.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 351
+  },
+  {
+    "id": "IMG_0817",
+    "image": "jpg/IMG_0817_rotated_90.jpg",
+    "text": "transcriptions/IMG_0817.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 352
+  },
+  {
+    "id": "IMG_0818",
+    "image": "jpg/IMG_0818_rotated_90.jpg",
+    "text": "transcriptions/IMG_0818.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 353
+  },
+  {
+    "id": "IMG_0819",
+    "image": "jpg/IMG_0819_rotated_90.jpg",
+    "text": "transcriptions/IMG_0819.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 354
+  },
+  {
+    "id": "IMG_0820",
+    "image": "jpg/IMG_0820_rotated_90.jpg",
+    "text": "transcriptions/IMG_0820.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 355
+  },
+  {
+    "id": "IMG_0821",
+    "image": "jpg/IMG_0821_rotated_90.jpg",
+    "text": "transcriptions/IMG_0821.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 356
+  },
+  {
+    "id": "IMG_0822",
+    "image": "jpg/IMG_0822_rotated_90.jpg",
+    "text": "transcriptions/IMG_0822.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 357
+  },
+  {
+    "id": "IMG_0823",
+    "image": "jpg/IMG_0823_rotated_90.jpg",
+    "text": "transcriptions/IMG_0823.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 358
+  },
+  {
+    "id": "IMG_0824",
+    "image": "jpg/IMG_0824_rotated_90.jpg",
+    "text": "transcriptions/IMG_0824.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 359
+  },
+  {
+    "id": "IMG_0825",
+    "image": "jpg/IMG_0825_rotated_90.jpg",
+    "text": "transcriptions/IMG_0825.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 360
+  },
+  {
+    "id": "IMG_0826",
+    "image": "jpg/IMG_0826_rotated_90.jpg",
+    "text": "transcriptions/IMG_0826.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 361
+  },
+  {
+    "id": "IMG_0827",
+    "image": "jpg/IMG_0827_rotated_90.jpg",
+    "text": "transcriptions/IMG_0827.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 362
+  },
+  {
+    "id": "IMG_0828",
+    "image": "jpg/IMG_0828_rotated_90.jpg",
+    "text": "transcriptions/IMG_0828.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 363
+  },
+  {
+    "id": "IMG_0829",
+    "image": "jpg/IMG_0829_rotated_90.jpg",
+    "text": "transcriptions/IMG_0829.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 364
+  },
+  {
+    "id": "IMG_0830",
+    "image": "jpg/IMG_0830_rotated_90.jpg",
+    "text": "transcriptions/IMG_0830.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 365
+  },
+  {
+    "id": "IMG_0831",
+    "image": "jpg/IMG_0831_rotated_90.jpg",
+    "text": "transcriptions/IMG_0831.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 366
+  },
+  {
+    "id": "IMG_0832",
+    "image": "jpg/IMG_0832_rotated_90.jpg",
+    "text": "transcriptions/IMG_0832.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 367
+  },
+  {
+    "id": "IMG_0833",
+    "image": "jpg/IMG_0833_rotated_90.jpg",
+    "text": "transcriptions/IMG_0833.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 368
+  },
+  {
+    "id": "IMG_0834",
+    "image": "jpg/IMG_0834_rotated_90.jpg",
+    "text": "transcriptions/IMG_0834.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 369
+  },
+  {
+    "id": "IMG_0835",
+    "image": "jpg/IMG_0835_rotated_90.jpg",
+    "text": "transcriptions/IMG_0835.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 370
+  },
+  {
+    "id": "IMG_0836",
+    "image": "jpg/IMG_0836_rotated_90.jpg",
+    "text": "transcriptions/IMG_0836.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 371
+  },
+  {
+    "id": "IMG_0837",
+    "image": "jpg/IMG_0837_rotated_90.jpg",
+    "text": "transcriptions/IMG_0837.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 372
+  },
+  {
+    "id": "IMG_0838",
+    "image": "jpg/IMG_0838_rotated_90.jpg",
+    "text": "transcriptions/IMG_0838.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 373
+  },
+  {
+    "id": "IMG_0839",
+    "image": "jpg/IMG_0839_rotated_90.jpg",
+    "text": "transcriptions/IMG_0839.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 374
+  },
+  {
+    "id": "IMG_0840",
+    "image": "jpg/IMG_0840_rotated_90.jpg",
+    "text": "transcriptions/IMG_0840.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 375
+  },
+  {
+    "id": "IMG_0841",
+    "image": "jpg/IMG_0841_rotated_90.jpg",
+    "text": "transcriptions/IMG_0841.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 376
+  },
+  {
+    "id": "IMG_0842",
+    "image": "jpg/IMG_0842_rotated_90.jpg",
+    "text": "transcriptions/IMG_0842.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 377
+  },
+  {
+    "id": "IMG_0843",
+    "image": "jpg/IMG_0843_rotated_90.jpg",
+    "text": "transcriptions/IMG_0843.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 378
+  },
+  {
+    "id": "IMG_0844",
+    "image": "jpg/IMG_0844_rotated_90.jpg",
+    "text": "transcriptions/IMG_0844.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 379
+  },
+  {
+    "id": "IMG_0845",
+    "image": "jpg/IMG_0845_rotated_90.jpg",
+    "text": "transcriptions/IMG_0845.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 380
+  },
+  {
+    "id": "IMG_0846",
+    "image": "jpg/IMG_0846_rotated_90.jpg",
+    "text": "transcriptions/IMG_0846.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 381
+  },
+  {
+    "id": "IMG_0847",
+    "image": "jpg/IMG_0847_rotated_90.jpg",
+    "text": "transcriptions/IMG_0847.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 382
+  },
+  {
+    "id": "IMG_0848",
+    "image": "jpg/IMG_0848_rotated_90.jpg",
+    "text": "transcriptions/IMG_0848.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 383
+  },
+  {
+    "id": "IMG_0849",
+    "image": "jpg/IMG_0849_rotated_90.jpg",
+    "text": "transcriptions/IMG_0849.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 384
+  },
+  {
+    "id": "IMG_0850",
+    "image": "jpg/IMG_0850_rotated_90.jpg",
+    "text": "transcriptions/IMG_0850.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 385
+  },
+  {
+    "id": "IMG_0851",
+    "image": "jpg/IMG_0851_rotated_90.jpg",
+    "text": "transcriptions/IMG_0851.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 386
+  },
+  {
+    "id": "IMG_0852",
+    "image": "jpg/IMG_0852_rotated_90.jpg",
+    "text": "transcriptions/IMG_0852.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 387
+  },
+  {
+    "id": "IMG_0853",
+    "image": "jpg/IMG_0853_rotated_90.jpg",
+    "text": "transcriptions/IMG_0853.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 388
+  },
+  {
+    "id": "IMG_0854",
+    "image": "jpg/IMG_0854_rotated_90.jpg",
+    "text": "transcriptions/IMG_0854.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 389
+  },
+  {
+    "id": "IMG_0855",
+    "image": "jpg/IMG_0855_rotated_90.jpg",
+    "text": "transcriptions/IMG_0855.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 390
+  },
+  {
+    "id": "IMG_0856",
+    "image": "jpg/IMG_0856_rotated_90.jpg",
+    "text": "transcriptions/IMG_0856.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 391
+  },
+  {
+    "id": "IMG_0857",
+    "image": "jpg/IMG_0857_rotated_90.jpg",
+    "text": "transcriptions/IMG_0857.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 392
+  },
+  {
+    "id": "IMG_0858",
+    "image": "jpg/IMG_0858_rotated_90.jpg",
+    "text": "transcriptions/IMG_0858.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 393
+  },
+  {
+    "id": "IMG_0859",
+    "image": "jpg/IMG_0859_rotated_90.jpg",
+    "text": "transcriptions/IMG_0859.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 394
+  },
+  {
+    "id": "IMG_0860",
+    "image": "jpg/IMG_0860_rotated_90.jpg",
+    "text": "transcriptions/IMG_0860.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 395
+  },
+  {
+    "id": "IMG_0861",
+    "image": "jpg/IMG_0861_rotated_90.jpg",
+    "text": "transcriptions/IMG_0861.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 396
+  },
+  {
+    "id": "IMG_0862",
+    "image": "jpg/IMG_0862_rotated_90.jpg",
+    "text": "transcriptions/IMG_0862.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 397
+  },
+  {
+    "id": "IMG_0863",
+    "image": "jpg/IMG_0863_rotated_90.jpg",
+    "text": "transcriptions/IMG_0863.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 398
+  },
+  {
+    "id": "IMG_0864",
+    "image": "jpg/IMG_0864_rotated_90.jpg",
+    "text": "transcriptions/IMG_0864.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 399
+  },
+  {
+    "id": "IMG_0865",
+    "image": "jpg/IMG_0865_rotated_90.jpg",
+    "text": "transcriptions/IMG_0865.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 400
+  },
+  {
+    "id": "IMG_0866",
+    "image": "jpg/IMG_0866_rotated_90.jpg",
+    "text": "transcriptions/IMG_0866.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 401
+  },
+  {
+    "id": "IMG_0867",
+    "image": "jpg/IMG_0867_rotated_90.jpg",
+    "text": "transcriptions/IMG_0867.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 402
+  },
+  {
+    "id": "IMG_0868",
+    "image": "jpg/IMG_0868_rotated_90.jpg",
+    "text": "transcriptions/IMG_0868.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 403
+  },
+  {
+    "id": "IMG_0869",
+    "image": "jpg/IMG_0869_rotated_90.jpg",
+    "text": "transcriptions/IMG_0869.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 404
+  },
+  {
+    "id": "IMG_0870",
+    "image": "jpg/IMG_0870_rotated_90.jpg",
+    "text": "transcriptions/IMG_0870.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 405
+  },
+  {
+    "id": "IMG_0871",
+    "image": "jpg/IMG_0871_rotated_90.jpg",
+    "text": "transcriptions/IMG_0871.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 406
+  },
+  {
+    "id": "IMG_0872",
+    "image": "jpg/IMG_0872_rotated_90.jpg",
+    "text": "transcriptions/IMG_0872.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 407
+  },
+  {
+    "id": "IMG_0873",
+    "image": "jpg/IMG_0873_rotated_90.jpg",
+    "text": "transcriptions/IMG_0873.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 408
+  },
+  {
+    "id": "IMG_0874",
+    "image": "jpg/IMG_0874_rotated_90.jpg",
+    "text": "transcriptions/IMG_0874.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 409
+  },
+  {
+    "id": "IMG_0875",
+    "image": "jpg/IMG_0875_rotated_90.jpg",
+    "text": "transcriptions/IMG_0875.md",
+    "status": "completed",
+    "category": "cover",
+    "description": "Pink archival divider folder labeled '1829'",
+    "index": 410
+  },
+  {
+    "id": "IMG_0876",
+    "image": "jpg/IMG_0876_rotated_90.jpg",
+    "text": "transcriptions/IMG_0876.md",
+    "status": "completed",
+    "category": "research_notes",
+    "description": "Handwritten notebook page",
+    "index": 411
+  },
+  {
+    "id": "IMG_0877",
+    "image": "jpg/IMG_0877_rotated_90.jpg",
+    "text": "transcriptions/IMG_0877.md",
+    "status": "completed",
+    "category": "cover",
+    "description": "Binder spine label 'Yogya Residency Letters 1810 - 1811 Raden Rangga Revolt II'",
+    "index": 412
+  }
+]

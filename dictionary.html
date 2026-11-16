@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Keyword Dictionary — 1810–1811 Yogya Residency Letters</title>
+    <style>
+        :root {
+            --bg: #1a1a1a;
+            --panel: #222222;
+            --panel-border: #333333;
+            --fg: #e0e0e0;
+            --muted: #9a9a9a;
+            --line: #333333;
+            --accent: #4a9eff;
+            --accent-hover: #70b4ff;
+            --code-bg: #2a2a2a;
+            --code-fg: #ffb454;
+            --highlight: #d29922;
+        }
+        * { box-sizing: border-box; }
+        body {
+            background-color: var(--bg);
+            color: var(--fg);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px 20px 60px;
+            line-height: 1.65;
+        }
+        .topbar {
+            position: sticky;
+            top: 0;
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            border-bottom: 1px solid #333;
+            padding: 12px 0;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            background: #2d2d2d;
+            color: var(--fg);
+            border: 1px solid var(--panel-border);
+            border-radius: 5px;
+            padding: 7px 14px;
+            font-size: 0.88rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+        .btn:hover { background: #3a3a3a; color: #ffffff; }
+
+        h1 { color: #ffffff; margin-top: 10px; font-size: 2rem; }
+        .intro-text { color: var(--muted); margin-bottom: 20px; font-size: 0.98rem; }
+
+        /* Search & Filter Bar */
+        .filter-panel {
+            background: var(--panel);
+            border: 1px solid var(--panel-border);
+            border-radius: 8px;
+            padding: 18px 20px;
+            margin-bottom: 25px;
+        }
+        .search-box-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+        .search-input {
+            flex-grow: 1;
+            background: #161616;
+            color: #ffffff;
+            border: 1px solid #444;
+            border-radius: 6px;
+            padding: 10px 14px;
+            font-size: 0.98rem;
+        }
+        .search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.2); }
+        .match-badge {
+            font-size: 0.85rem;
+            color: var(--muted);
+            white-space: nowrap;
+        }
+
+        /* Category jump pills */
+        .category-pills {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .pill {
+            background: #2b2b2b;
+            color: #ccc;
+            border: 1px solid #3d3d3d;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 0.82rem;
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+        .pill:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+        /* Rendered Content */
+        #dictionary-content {
+            background: var(--panel);
+            border: 1px solid var(--panel-border);
+            border-radius: 8px;
+            padding: 30px;
+        }
+        #dictionary-content h1 { font-size: 1.6rem; color: #ffffff; border-bottom: 2px solid var(--accent); padding-bottom: 8px; }
+        #dictionary-content h2 { font-size: 1.35rem; color: #ffffff; margin-top: 32px; border-bottom: 1px solid #383838; padding-bottom: 6px; }
+        #dictionary-content h3 { font-size: 1.15rem; color: #e4e4e4; margin-top: 24px; }
+        #dictionary-content ul { padding-left: 24px; margin: 10px 0; }
+        #dictionary-content li { margin-bottom: 6px; line-height: 1.55; }
+        #dictionary-content strong { color: #ffffff; font-weight: 600; }
+        #dictionary-content hr { border: 0; border-top: 1px solid var(--line); margin: 25px 0; }
+        #dictionary-content mark {
+            background-color: rgba(210, 153, 34, 0.35);
+            color: #fff;
+            padding: 0 3px;
+            border-radius: 2px;
+        }
+
+        .hidden-entry { display: none !important; }
+        .render-error {
+            background: #2a1414;
+            border: 1px solid #ff6b6b55;
+            border-radius: 6px;
+            padding: 1.25rem;
+            color: #ffb4b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a class="btn" href="index.html">← Portal</a>
+        <a class="btn" href="transcriptions.html">Side-by-Side Viewer</a>
+        <a class="btn" href="full.html">Full Documentation</a>
+    </div>
+
+    <h1>Keyword &amp; Terminology Dictionary</h1>
+    <p class="intro-text">
+        Canonical historical index of royal figures, military commanders, court officials, places, heirloom weapons, and Javanese cultural/administrative terms from Peter Carey’s <em>The Power of Prophecy</em>, tracked systematically across the 1810–1811 Residency Letters.
+    </p>
+
+    <!-- Filter & Category Toolbar -->
+    <div class="filter-panel">
+        <div class="search-box-row">
+            <input type="text" id="dict-search" class="search-input" placeholder="🔍 Filter terms, royalty, places, commanders (e.g. Rangga, Daendels, Sekaran, Danureja)..." autocomplete="off">
+            <span class="match-badge" id="match-status">Loading index…</span>
+        </div>
+        <div class="category-pills">
+            <span style="font-size:0.82rem; color:var(--muted); line-height:26px;">Quick Jump:</span>
+            <a class="pill" href="#1-people-historical-figures-royalty-officials-scholars-and-military-commanders">1. People &amp; Royalty</a>
+            <a class="pill" href="#2-places-kraton-compounds-capitals-battle-sites-sacred-centers-country-retreats-and-outposts">2. Places &amp; Sites</a>
+            <a class="pill" href="#3-cultural-administrative-religious-and-agricultural-terms">3. Terms &amp; Concepts</a>
+            <a class="pill" href="#4-weapons-heirlooms-regalia-and-military-units">4. Weapons &amp; Regalia</a>
+            <a class="pill" href="#5-manuscripts-chronicles-and-archival-records">5. Texts &amp; Archives</a>
+        </div>
+    </div>
+
+    <!-- Content Area -->
+    <div id="dictionary-content">Loading Keyword Index…</div>
+
+    <script src="marked.min.js" defer></script>
+    <script>
+(async function() {
+    "use strict";
+
+    const contentDiv  = document.getElementById("dictionary-content");
+    const searchInput = document.getElementById("dict-search");
+    const matchStatus = document.getElementById("match-status");
+
+    try {
+        const res = await fetch("39_Expanded_Keyword_Index.md", { cache: "no-store" });
+        if (!res.ok) throw new Error("Could not load 39_Expanded_Keyword_Index.md");
+        const mdText = await res.text();
+
+        if (typeof marked === "undefined") throw new Error("marked.min.js did not load.");
+        marked.setOptions({ gfm: true, breaks: false, mangle: false });
+
+        contentDiv.innerHTML = marked.parse(mdText);
+
+        // Add auto IDs to all headings for smooth anchor jumping
+        contentDiv.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(h => {
+            h.id = h.textContent.toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-").replace(/-+/g, "-");
+        });
+
+        // Collect all list items for client-side search
+        const allItems = Array.from(contentDiv.querySelectorAll("li"));
+        const originalHtml = new Map();
+        allItems.forEach((li, idx) => {
+            originalHtml.set(li, li.innerHTML);
+        });
+
+        matchStatus.textContent = `${allItems.length} indexed entities`;
+
+        // Real-time live filtering
+        searchInput.addEventListener("input", () => {
+            const query = searchInput.value.trim().toLowerCase();
+
+            if (!query) {
+                allItems.forEach(li => {
+                    li.classList.remove("hidden-entry");
+                    li.innerHTML = originalHtml.get(li);
+                });
+                matchStatus.textContent = `${allItems.length} indexed entities`;
+                return;
+            }
+
+            let matches = 0;
+            allItems.forEach(li => {
+                const text = li.textContent.toLowerCase();
+                if (text.includes(query)) {
+                    li.classList.remove("hidden-entry");
+                    matches++;
+                    // Highlight matching text without breaking HTML tags
+                    const raw = originalHtml.get(li);
+                    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+                    li.innerHTML = raw.replace(regex, '<mark>$1</mark>');
+                } else {
+                    li.classList.add("hidden-entry");
+                }
+            });
+
+            matchStatus.textContent = `${matches} of ${allItems.length} matches`;
+        });
+
+    } catch (err) {
+        contentDiv.innerHTML = `<div class="render-error"><h2>Error Loading Dictionary</h2><pre>${err.message}</pre></div>`;
+        matchStatus.textContent = "Error";
+    }
+})();
+    </script>
+</body>
+</html>
